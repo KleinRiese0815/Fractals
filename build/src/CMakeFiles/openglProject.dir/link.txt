@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/openglProject.dir/main.cpp.o -o openglProject  ../dependencies/glfw/src/libglfw3.a ../dependencies/glad/libglad.a ../dependencies/glm/glm/libglm.a ../dependencies/imgui/libimgui.a ../dependencies/glfw/src/libglfw3.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 

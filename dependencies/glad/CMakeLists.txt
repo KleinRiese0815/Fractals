@@ -5,4 +5,5 @@ add_library(glad STATIC
 target_include_directories(glad
     PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/backends
 )
