@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jakob/dev/OpenGL_Base/src/main.cpp" "src/CMakeFiles/openglProject.dir/main.cpp.o" "gcc" "src/CMakeFiles/openglProject.dir/main.cpp.o.d"
+  "/home/jakob/dev/OpenGL-Fractals/src/main.cpp" "src/CMakeFiles/openglProject.dir/main.cpp.o" "gcc" "src/CMakeFiles/openglProject.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

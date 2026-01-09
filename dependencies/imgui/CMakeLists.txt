@@ -3,7 +3,7 @@ project(imgui)
 
 # alle Quell-Dateien
 
-file(GLOB IMGUI_SOURCES "./*.cpp")
+file(GLOB IMGUI_SOURCES "./*.cpp" "./backends/*.cpp")
 
 add_library(imgui STATIC ${IMGUI_SOURCES})
 

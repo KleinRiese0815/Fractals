@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jakob/dev/OpenGL_Base/dependencies/glm
+CXX_INCLUDES = -I/home/jakob/dev/OpenGL-Fractals/dependencies/glm
 
 CXX_FLAGS = -std=c++17
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jakob/dev/OpenGL_Base/src -I/home/jakob/dev/OpenGL_Base/dependencies/glfw/include -I/home/jakob/dev/OpenGL_Base/dependencies/glad/include -I/home/jakob/dev/OpenGL_Base/dependencies/glad/backends -I/home/jakob/dev/OpenGL_Base/dependencies/glm -I/home/jakob/dev/OpenGL_Base/dependencies/imgui -I/home/jakob/dev/OpenGL_Base/dependencies/imgui/backends
+CXX_INCLUDES = -I/home/jakob/dev/OpenGL-Fractals/dependencies/glfw/include -I/home/jakob/dev/OpenGL-Fractals/dependencies/glad/include -I/home/jakob/dev/OpenGL-Fractals/dependencies/glad/backends -I/home/jakob/dev/OpenGL-Fractals/dependencies/glm -I/home/jakob/dev/OpenGL-Fractals/dependencies/imgui -I/home/jakob/dev/OpenGL-Fractals/dependencies/imgui/backends
 
 CXX_FLAGS = 
 

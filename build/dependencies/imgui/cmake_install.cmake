@@ -1,4 +1,4 @@
-# Install script for directory: /home/jakob/dev/OpenGL_Base/dependencies/imgui
+# Install script for directory: /home/jakob/dev/OpenGL-Fractals/dependencies/imgui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

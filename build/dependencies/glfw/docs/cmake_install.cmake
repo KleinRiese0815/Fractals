@@ -1,4 +1,4 @@
-# Install script for directory: /home/jakob/dev/OpenGL_Base/dependencies/glfw/docs
+# Install script for directory: /home/jakob/dev/OpenGL-Fractals/dependencies/glfw/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

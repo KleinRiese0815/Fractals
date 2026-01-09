@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
 
-C_INCLUDES = -I/home/jakob/dev/OpenGL_Base/dependencies/glfw/include -I/home/jakob/dev/OpenGL_Base/dependencies/glfw/src -I/home/jakob/dev/OpenGL_Base/build/dependencies/glfw/src
+C_INCLUDES = -I/home/jakob/dev/OpenGL-Fractals/dependencies/glfw/include -I/home/jakob/dev/OpenGL-Fractals/dependencies/glfw/src -I/home/jakob/dev/OpenGL-Fractals/build/dependencies/glfw/src
 
 C_FLAGS = -std=c99 -fPIC -Wall
 

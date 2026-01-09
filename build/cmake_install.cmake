@@ -1,4 +1,4 @@
-# Install script for directory: /home/jakob/dev/OpenGL_Base
+# Install script for directory: /home/jakob/dev/OpenGL-Fractals
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,27 +44,27 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/jakob/dev/OpenGL_Base/build/dependencies/glad/cmake_install.cmake")
+  include("/home/jakob/dev/OpenGL-Fractals/build/dependencies/glad/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/jakob/dev/OpenGL_Base/build/dependencies/glfw/cmake_install.cmake")
+  include("/home/jakob/dev/OpenGL-Fractals/build/dependencies/glfw/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/jakob/dev/OpenGL_Base/build/dependencies/glm/cmake_install.cmake")
+  include("/home/jakob/dev/OpenGL-Fractals/build/dependencies/glm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/jakob/dev/OpenGL_Base/build/dependencies/imgui/cmake_install.cmake")
+  include("/home/jakob/dev/OpenGL-Fractals/build/dependencies/imgui/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/jakob/dev/OpenGL_Base/build/src/cmake_install.cmake")
+  include("/home/jakob/dev/OpenGL-Fractals/build/src/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -75,5 +75,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jakob/dev/OpenGL_Base/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jakob/dev/OpenGL-Fractals/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

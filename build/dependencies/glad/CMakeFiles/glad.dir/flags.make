@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/jakob/dev/OpenGL_Base/dependencies/glad/include -I/home/jakob/dev/OpenGL_Base/dependencies/glad/backends
+C_INCLUDES = -I/home/jakob/dev/OpenGL-Fractals/dependencies/glad/include -I/home/jakob/dev/OpenGL-Fractals/dependencies/glad/backends
 
 C_FLAGS = 
 

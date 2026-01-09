@@ -1,5 +1,5 @@
 dependencies/glad/CMakeFiles/glad.dir/src/glad.c.o: \
- /home/jakob/dev/OpenGL_Base/dependencies/glad/src/glad.c \
+ /home/jakob/dev/OpenGL-Fractals/dependencies/glad/src/glad.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -52,7 +52,7 @@ dependencies/glad/CMakeFiles/glad.dir/src/glad.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/jakob/dev/OpenGL_Base/dependencies/glad/include/glad/glad.h \
+ /home/jakob/dev/OpenGL-Fractals/dependencies/glad/include/glad/glad.h \
  /usr/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \

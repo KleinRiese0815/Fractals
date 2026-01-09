@@ -1,4 +1,4 @@
-# Install script for directory: /home/jakob/dev/OpenGL_Base/dependencies/glm
+# Install script for directory: /home/jakob/dev/OpenGL-Fractals/dependencies/glm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,6 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/jakob/dev/OpenGL_Base/build/dependencies/glm/glm/cmake_install.cmake")
+  include("/home/jakob/dev/OpenGL-Fractals/build/dependencies/glm/glm/cmake_install.cmake")
 endif()
 

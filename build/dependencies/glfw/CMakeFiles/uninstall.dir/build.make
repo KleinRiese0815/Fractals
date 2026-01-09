@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jakob/dev/OpenGL_Base
+CMAKE_SOURCE_DIR = /home/jakob/dev/OpenGL-Fractals
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakob/dev/OpenGL_Base/build
+CMAKE_BINARY_DIR = /home/jakob/dev/OpenGL-Fractals/build
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include dependencies/glfw/CMakeFiles/uninstall.dir/compiler_depend.make
 include dependencies/glfw/CMakeFiles/uninstall.dir/progress.make
 
 dependencies/glfw/CMakeFiles/uninstall:
-	cd /home/jakob/dev/OpenGL_Base/build/dependencies/glfw && /usr/bin/cmake -P /home/jakob/dev/OpenGL_Base/build/dependencies/glfw/cmake_uninstall.cmake
+	cd /home/jakob/dev/OpenGL-Fractals/build/dependencies/glfw && /usr/bin/cmake -P /home/jakob/dev/OpenGL-Fractals/build/dependencies/glfw/cmake_uninstall.cmake
 
 uninstall: dependencies/glfw/CMakeFiles/uninstall
 uninstall: dependencies/glfw/CMakeFiles/uninstall.dir/build.make
@@ -78,10 +78,10 @@ dependencies/glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : dependencies/glfw/CMakeFiles/uninstall.dir/build
 
 dependencies/glfw/CMakeFiles/uninstall.dir/clean:
-	cd /home/jakob/dev/OpenGL_Base/build/dependencies/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /home/jakob/dev/OpenGL-Fractals/build/dependencies/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : dependencies/glfw/CMakeFiles/uninstall.dir/clean
 
 dependencies/glfw/CMakeFiles/uninstall.dir/depend:
-	cd /home/jakob/dev/OpenGL_Base/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jakob/dev/OpenGL_Base /home/jakob/dev/OpenGL_Base/dependencies/glfw /home/jakob/dev/OpenGL_Base/build /home/jakob/dev/OpenGL_Base/build/dependencies/glfw /home/jakob/dev/OpenGL_Base/build/dependencies/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jakob/dev/OpenGL-Fractals /home/jakob/dev/OpenGL-Fractals/dependencies/glfw /home/jakob/dev/OpenGL-Fractals/build /home/jakob/dev/OpenGL-Fractals/build/dependencies/glfw /home/jakob/dev/OpenGL-Fractals/build/dependencies/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : dependencies/glfw/CMakeFiles/uninstall.dir/depend
 

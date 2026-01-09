@@ -8,11 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jakob/dev/OpenGL_Base/dependencies/imgui/imgui.cpp" "dependencies/imgui/CMakeFiles/imgui.dir/imgui.cpp.o" "gcc" "dependencies/imgui/CMakeFiles/imgui.dir/imgui.cpp.o.d"
-  "/home/jakob/dev/OpenGL_Base/dependencies/imgui/imgui_demo.cpp" "dependencies/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o" "gcc" "dependencies/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o.d"
-  "/home/jakob/dev/OpenGL_Base/dependencies/imgui/imgui_draw.cpp" "dependencies/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o" "gcc" "dependencies/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o.d"
-  "/home/jakob/dev/OpenGL_Base/dependencies/imgui/imgui_tables.cpp" "dependencies/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o" "gcc" "dependencies/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o.d"
-  "/home/jakob/dev/OpenGL_Base/dependencies/imgui/imgui_widgets.cpp" "dependencies/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o" "gcc" "dependencies/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o.d"
+  "/home/jakob/dev/OpenGL-Fractals/dependencies/imgui/backends/imgui_impl_glfw.cpp" "dependencies/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o" "gcc" "dependencies/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o.d"
+  "/home/jakob/dev/OpenGL-Fractals/dependencies/imgui/backends/imgui_impl_opengl3.cpp" "dependencies/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o" "gcc" "dependencies/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o.d"
+  "/home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imgui.cpp" "dependencies/imgui/CMakeFiles/imgui.dir/imgui.cpp.o" "gcc" "dependencies/imgui/CMakeFiles/imgui.dir/imgui.cpp.o.d"
+  "/home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imgui_demo.cpp" "dependencies/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o" "gcc" "dependencies/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o.d"
+  "/home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imgui_draw.cpp" "dependencies/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o" "gcc" "dependencies/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o.d"
+  "/home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imgui_tables.cpp" "dependencies/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o" "gcc" "dependencies/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o.d"
+  "/home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imgui_widgets.cpp" "dependencies/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o" "gcc" "dependencies/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

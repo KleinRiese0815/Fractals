@@ -1,0 +1,2 @@
+/usr/bin/ar qc libproject_gui.a CMakeFiles/project_gui.dir/gui/gui.cpp.o
+/usr/bin/ranlib libproject_gui.a

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jakob/dev/OpenGL_Base
+CMAKE_SOURCE_DIR = /home/jakob/dev/OpenGL-Fractals
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakob/dev/OpenGL_Base/build
+CMAKE_BINARY_DIR = /home/jakob/dev/OpenGL-Fractals/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -201,6 +201,7 @@ dependencies/imgui/clean: dependencies/imgui/CMakeFiles/imgui.dir/clean
 
 # Recursive "all" directory target.
 src/all: src/CMakeFiles/openglProject.dir/all
+src/all: src/CMakeFiles/project_gui.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -209,6 +210,7 @@ src/preinstall:
 
 # Recursive "clean" directory target.
 src/clean: src/CMakeFiles/openglProject.dir/clean
+src/clean: src/CMakeFiles/project_gui.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -218,14 +220,14 @@ src/clean: src/CMakeFiles/openglProject.dir/clean
 dependencies/glad/CMakeFiles/glad.dir/all:
 	$(MAKE) $(MAKESILENT) -f dependencies/glad/CMakeFiles/glad.dir/build.make dependencies/glad/CMakeFiles/glad.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependencies/glad/CMakeFiles/glad.dir/build.make dependencies/glad/CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakob/dev/OpenGL_Base/build/CMakeFiles --progress-num=1,2 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=1,2 "Built target glad"
 .PHONY : dependencies/glad/CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
 dependencies/glad/CMakeFiles/glad.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL_Base/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependencies/glad/CMakeFiles/glad.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL_Base/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles 0
 .PHONY : dependencies/glad/CMakeFiles/glad.dir/rule
 
 # Convenience name for target.
@@ -244,14 +246,14 @@ dependencies/glad/CMakeFiles/glad.dir/clean:
 dependencies/glfw/CMakeFiles/uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f dependencies/glfw/CMakeFiles/uninstall.dir/build.make dependencies/glfw/CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependencies/glfw/CMakeFiles/uninstall.dir/build.make dependencies/glfw/CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakob/dev/OpenGL_Base/build/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : dependencies/glfw/CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 dependencies/glfw/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL_Base/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependencies/glfw/CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL_Base/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles 0
 .PHONY : dependencies/glfw/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -270,14 +272,14 @@ dependencies/glfw/CMakeFiles/uninstall.dir/clean:
 dependencies/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f dependencies/glfw/src/CMakeFiles/glfw.dir/build.make dependencies/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependencies/glfw/src/CMakeFiles/glfw.dir/build.make dependencies/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakob/dev/OpenGL_Base/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47 "Built target glfw"
 .PHONY : dependencies/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 dependencies/glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL_Base/build/CMakeFiles 45
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles 45
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependencies/glfw/src/CMakeFiles/glfw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL_Base/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles 0
 .PHONY : dependencies/glfw/src/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.
@@ -296,14 +298,14 @@ dependencies/glfw/src/CMakeFiles/glfw.dir/clean:
 dependencies/glfw/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f dependencies/glfw/src/CMakeFiles/update_mappings.dir/build.make dependencies/glfw/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependencies/glfw/src/CMakeFiles/update_mappings.dir/build.make dependencies/glfw/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakob/dev/OpenGL_Base/build/CMakeFiles --progress-num=58 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=62 "Built target update_mappings"
 .PHONY : dependencies/glfw/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
 dependencies/glfw/src/CMakeFiles/update_mappings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL_Base/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependencies/glfw/src/CMakeFiles/update_mappings.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL_Base/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles 0
 .PHONY : dependencies/glfw/src/CMakeFiles/update_mappings.dir/rule
 
 # Convenience name for target.
@@ -322,14 +324,14 @@ dependencies/glfw/src/CMakeFiles/update_mappings.dir/clean:
 dependencies/glm/glm/CMakeFiles/glm.dir/all:
 	$(MAKE) $(MAKESILENT) -f dependencies/glm/glm/CMakeFiles/glm.dir/build.make dependencies/glm/glm/CMakeFiles/glm.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependencies/glm/glm/CMakeFiles/glm.dir/build.make dependencies/glm/glm/CMakeFiles/glm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakob/dev/OpenGL_Base/build/CMakeFiles --progress-num=48,49 "Built target glm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=48,49 "Built target glm"
 .PHONY : dependencies/glm/glm/CMakeFiles/glm.dir/all
 
 # Build rule for subdir invocation for target.
 dependencies/glm/glm/CMakeFiles/glm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL_Base/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependencies/glm/glm/CMakeFiles/glm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL_Base/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles 0
 .PHONY : dependencies/glm/glm/CMakeFiles/glm.dir/rule
 
 # Convenience name for target.
@@ -348,14 +350,14 @@ dependencies/glm/glm/CMakeFiles/glm.dir/clean:
 dependencies/imgui/CMakeFiles/imgui.dir/all: dependencies/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f dependencies/imgui/CMakeFiles/imgui.dir/build.make dependencies/imgui/CMakeFiles/imgui.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependencies/imgui/CMakeFiles/imgui.dir/build.make dependencies/imgui/CMakeFiles/imgui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakob/dev/OpenGL_Base/build/CMakeFiles --progress-num=50,51,52,53,54,55 "Built target imgui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=50,51,52,53,54,55,56,57 "Built target imgui"
 .PHONY : dependencies/imgui/CMakeFiles/imgui.dir/all
 
 # Build rule for subdir invocation for target.
 dependencies/imgui/CMakeFiles/imgui.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL_Base/build/CMakeFiles 51
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles 53
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependencies/imgui/CMakeFiles/imgui.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL_Base/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles 0
 .PHONY : dependencies/imgui/CMakeFiles/imgui.dir/rule
 
 # Convenience name for target.
@@ -377,14 +379,14 @@ src/CMakeFiles/openglProject.dir/all: dependencies/glm/glm/CMakeFiles/glm.dir/al
 src/CMakeFiles/openglProject.dir/all: dependencies/imgui/CMakeFiles/imgui.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/openglProject.dir/build.make src/CMakeFiles/openglProject.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/openglProject.dir/build.make src/CMakeFiles/openglProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakob/dev/OpenGL_Base/build/CMakeFiles --progress-num=56,57 "Built target openglProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=58,59 "Built target openglProject"
 .PHONY : src/CMakeFiles/openglProject.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/openglProject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL_Base/build/CMakeFiles 57
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles 59
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/openglProject.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL_Base/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/openglProject.dir/rule
 
 # Convenience name for target.
@@ -395,6 +397,33 @@ openglProject: src/CMakeFiles/openglProject.dir/rule
 src/CMakeFiles/openglProject.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/openglProject.dir/build.make src/CMakeFiles/openglProject.dir/clean
 .PHONY : src/CMakeFiles/openglProject.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/project_gui.dir
+
+# All Build rule for target.
+src/CMakeFiles/project_gui.dir/all: dependencies/glfw/src/CMakeFiles/glfw.dir/all
+src/CMakeFiles/project_gui.dir/all: dependencies/imgui/CMakeFiles/imgui.dir/all
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/project_gui.dir/build.make src/CMakeFiles/project_gui.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/project_gui.dir/build.make src/CMakeFiles/project_gui.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=60,61 "Built target project_gui"
+.PHONY : src/CMakeFiles/project_gui.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/project_gui.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles 55
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/project_gui.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/project_gui.dir/rule
+
+# Convenience name for target.
+project_gui: src/CMakeFiles/project_gui.dir/rule
+.PHONY : project_gui
+
+# clean rule for target.
+src/CMakeFiles/project_gui.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/project_gui.dir/build.make src/CMakeFiles/project_gui.dir/clean
+.PHONY : src/CMakeFiles/project_gui.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
