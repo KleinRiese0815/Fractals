@@ -211,14 +211,14 @@
 },
 {
   "directory": "/home/jakob/dev/OpenGL-Fractals/build/src",
-  "command": "/usr/bin/c++  -I/home/jakob/dev/OpenGL-Fractals/dependencies/glfw/include -I/home/jakob/dev/OpenGL-Fractals/dependencies/glad/include -I/home/jakob/dev/OpenGL-Fractals/dependencies/glad/backends -I/home/jakob/dev/OpenGL-Fractals/dependencies/glm -I/home/jakob/dev/OpenGL-Fractals/dependencies/imgui -I/home/jakob/dev/OpenGL-Fractals/dependencies/imgui/backends  -o CMakeFiles/openglProject.dir/main.cpp.o -c /home/jakob/dev/OpenGL-Fractals/src/main.cpp",
+  "command": "/usr/bin/c++  -I/home/jakob/dev/OpenGL-Fractals/src -I/home/jakob/dev/OpenGL-Fractals/src/gui -I/home/jakob/dev/OpenGL-Fractals/dependencies/imgui -I/home/jakob/dev/OpenGL-Fractals/dependencies/imgui/backends -I/home/jakob/dev/OpenGL-Fractals/dependencies/glfw/include -I/home/jakob/dev/OpenGL-Fractals/dependencies/glad/include -I/home/jakob/dev/OpenGL-Fractals/dependencies/glad/backends -I/home/jakob/dev/OpenGL-Fractals/dependencies/glm  -o CMakeFiles/openglProject.dir/main.cpp.o -c /home/jakob/dev/OpenGL-Fractals/src/main.cpp",
   "file": "/home/jakob/dev/OpenGL-Fractals/src/main.cpp",
   "output": "src/CMakeFiles/openglProject.dir/main.cpp.o"
 },
 {
-  "directory": "/home/jakob/dev/OpenGL-Fractals/build/src",
-  "command": "/usr/bin/c++  -I/home/jakob/dev/OpenGL-Fractals/src -I/home/jakob/dev/OpenGL-Fractals/src/gui -I/home/jakob/dev/OpenGL-Fractals/dependencies/imgui -I/home/jakob/dev/OpenGL-Fractals/dependencies/imgui/backends -I/home/jakob/dev/OpenGL-Fractals/dependencies/glfw/include  -o CMakeFiles/project_gui.dir/gui/gui.cpp.o -c /home/jakob/dev/OpenGL-Fractals/src/gui/gui.cpp",
+  "directory": "/home/jakob/dev/OpenGL-Fractals/build/src/gui",
+  "command": "/usr/bin/c++  -I/home/jakob/dev/OpenGL-Fractals/src/gui -I/home/jakob/dev/OpenGL-Fractals/dependencies/imgui -I/home/jakob/dev/OpenGL-Fractals/dependencies/imgui/backends -I/home/jakob/dev/OpenGL-Fractals/dependencies/glfw/include  -o CMakeFiles/gui.dir/gui.cpp.o -c /home/jakob/dev/OpenGL-Fractals/src/gui/gui.cpp",
   "file": "/home/jakob/dev/OpenGL-Fractals/src/gui/gui.cpp",
-  "output": "src/CMakeFiles/project_gui.dir/gui/gui.cpp.o"
+  "output": "src/gui/CMakeFiles/gui.dir/gui.cpp.o"
 }
 ]

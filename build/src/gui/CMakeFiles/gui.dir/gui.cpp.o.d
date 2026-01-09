@@ -1,6 +1,6 @@
 src/gui/CMakeFiles/gui.dir/gui.cpp.o: \
  /home/jakob/dev/OpenGL-Fractals/src/gui/gui.cpp \
- /usr/include/stdc-predef.h /home/jakob/dev/OpenGL-Fractals/src/gui/gui.h \
+ /usr/include/stdc-predef.h \
  /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imgui.h \
  /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imconfig.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
@@ -17,6 +17,9 @@ src/gui/CMakeFiles/gui.dir/gui.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/assert.h \
+ /home/jakob/dev/OpenGL-Fractals/src/gui/gui.h \
+ /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/backends/imgui_impl_glfw.h \
+ /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/backends/imgui_impl_opengl3.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

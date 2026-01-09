@@ -253,17 +253,17 @@ openglProject/fast:
 .PHONY : openglProject/fast
 
 #=============================================================================
-# Target rules for targets named project_gui
+# Target rules for targets named gui
 
 # Build rule for target.
-project_gui: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project_gui
-.PHONY : project_gui
+gui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gui
+.PHONY : gui
 
 # fast build rule for target.
-project_gui/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/project_gui.dir/build.make src/CMakeFiles/project_gui.dir/build
-.PHONY : project_gui/fast
+gui/fast:
+	$(MAKE) $(MAKESILENT) -f src/gui/CMakeFiles/gui.dir/build.make src/gui/CMakeFiles/gui.dir/build
+.PHONY : gui/fast
 
 # Help Target
 help:
@@ -282,9 +282,9 @@ help:
 	@echo "... glad"
 	@echo "... glfw"
 	@echo "... glm"
+	@echo "... gui"
 	@echo "... imgui"
 	@echo "... openglProject"
-	@echo "... project_gui"
 .PHONY : help
 
 

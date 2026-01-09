@@ -6,6 +6,8 @@
 #include <imgui.h>
 #include <iostream>
 #include <string>
+#include <gui.h>
+
 
 int main() {
     if (!glfwInit()) {
@@ -13,9 +15,10 @@ int main() {
         return -1;
     }
 
-    
+    const int resolutionX = 1920, resolutionY = 1080;
 
-    GLFWwindow* window = glfwCreateWindow(800, 600, "GLAD Test", nullptr, nullptr);
+    glfwWindowHint(GLFW_MAXIMIZED, true);
+    GLFWwindow* window = glfwCreateWindow(resolutionX, resolutionY, "GLAD Test", nullptr, nullptr);
     if (!window) {
         std::cerr << "Fenster konnte nicht erstellt werden!\n";
         glfwTerminate();
@@ -94,36 +97,19 @@ int main() {
 
     std::cout << glGetError() << std::endl;         
     
-    ImGui::CreateContext();
-    ImGuiIO& io = ImGui::GetIO();
-    io.DisplaySize = ImVec2((float)800, (float)800);
-    ImGui_ImplOpenGL3_Init();
-    ImGui_ImplGlfw_InitForOpenGL(window, true);
+    Gui::Init(screen_width, screen_height, window);
 
     bool show_demo_window = true;
 
     while (!glfwWindowShouldClose(window)) {
-        
-
-
-        ImGui_ImplOpenGL3_NewFrame();
-        ImGui_ImplGlfw_NewFrame();
-        ImGui::NewFrame();
-        
-        ImGui::ShowDemoWindow(&show_demo_window);
-
-        ImGui::Begin("Test Window");
-        ImGui::Text("Hello");
-        ImGui::End();
-        
-        ImGui::Render();
-        
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
         
+        Gui::UpdateVisuals();
+        
         glDrawArrays(GL_TRIANGLES, 0, 3);
-        ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
-        ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
+
+        Gui::Render();
 
         glfwSwapBuffers(window);
         glfwPollEvents();
