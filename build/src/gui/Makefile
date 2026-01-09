@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jakob/dev/OpenGL-Fractals/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles /home/jakob/dev/OpenGL-Fractals/build/src//CMakeFiles/progress.marks
-	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles /home/jakob/dev/OpenGL-Fractals/build/src/gui//CMakeFiles/progress.marks
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/gui/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/gui/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,12 +148,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/gui/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/gui/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -162,42 +162,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/openglProject.dir/rule:
-	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/openglProject.dir/rule
-.PHONY : src/CMakeFiles/openglProject.dir/rule
+src/gui/CMakeFiles/gui.dir/rule:
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/gui/CMakeFiles/gui.dir/rule
+.PHONY : src/gui/CMakeFiles/gui.dir/rule
 
 # Convenience name for target.
-openglProject: src/CMakeFiles/openglProject.dir/rule
-.PHONY : openglProject
+gui: src/gui/CMakeFiles/gui.dir/rule
+.PHONY : gui
 
 # fast build rule for target.
-openglProject/fast:
-	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/openglProject.dir/build.make src/CMakeFiles/openglProject.dir/build
-.PHONY : openglProject/fast
+gui/fast:
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/gui/CMakeFiles/gui.dir/build.make src/gui/CMakeFiles/gui.dir/build
+.PHONY : gui/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+gui.o: gui.cpp.o
+.PHONY : gui.o
 
 # target to build an object file
-main.cpp.o:
-	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/openglProject.dir/build.make src/CMakeFiles/openglProject.dir/main.cpp.o
-.PHONY : main.cpp.o
+gui.cpp.o:
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/gui/CMakeFiles/gui.dir/build.make src/gui/CMakeFiles/gui.dir/gui.cpp.o
+.PHONY : gui.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+gui.i: gui.cpp.i
+.PHONY : gui.i
 
 # target to preprocess a source file
-main.cpp.i:
-	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/openglProject.dir/build.make src/CMakeFiles/openglProject.dir/main.cpp.i
-.PHONY : main.cpp.i
+gui.cpp.i:
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/gui/CMakeFiles/gui.dir/build.make src/gui/CMakeFiles/gui.dir/gui.cpp.i
+.PHONY : gui.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+gui.s: gui.cpp.s
+.PHONY : gui.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/openglProject.dir/build.make src/CMakeFiles/openglProject.dir/main.cpp.s
-.PHONY : main.cpp.s
+gui.cpp.s:
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/gui/CMakeFiles/gui.dir/build.make src/gui/CMakeFiles/gui.dir/gui.cpp.s
+.PHONY : gui.cpp.s
 
 # Help Target
 help:
@@ -211,10 +211,10 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... openglProject"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... gui"
+	@echo "... gui.o"
+	@echo "... gui.i"
+	@echo "... gui.s"
 .PHONY : help
 
 
