@@ -220,5 +220,11 @@
   "command": "/usr/bin/c++  -I/home/jakob/dev/OpenGL-Fractals/src/gui -I/home/jakob/dev/OpenGL-Fractals/dependencies/imgui -I/home/jakob/dev/OpenGL-Fractals/dependencies/imgui/backends -I/home/jakob/dev/OpenGL-Fractals/dependencies/glfw/include  -o CMakeFiles/gui.dir/gui.cpp.o -c /home/jakob/dev/OpenGL-Fractals/src/gui/gui.cpp",
   "file": "/home/jakob/dev/OpenGL-Fractals/src/gui/gui.cpp",
   "output": "src/gui/CMakeFiles/gui.dir/gui.cpp.o"
+},
+{
+  "directory": "/home/jakob/dev/OpenGL-Fractals/build/src/rendering",
+  "command": "/usr/bin/c++  -I/home/jakob/dev/OpenGL-Fractals/src/rendering -I/home/jakob/dev/OpenGL-Fractals/dependencies/glfw/include -I/home/jakob/dev/OpenGL-Fractals/dependencies/glad/include -I/home/jakob/dev/OpenGL-Fractals/dependencies/glad/backends  -o CMakeFiles/renderer.dir/renderer.cpp.o -c /home/jakob/dev/OpenGL-Fractals/src/rendering/renderer.cpp",
+  "file": "/home/jakob/dev/OpenGL-Fractals/src/rendering/renderer.cpp",
+  "output": "src/rendering/CMakeFiles/renderer.dir/renderer.cpp.o"
 }
 ]

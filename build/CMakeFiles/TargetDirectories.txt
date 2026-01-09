@@ -66,3 +66,10 @@
 /home/jakob/dev/OpenGL-Fractals/build/src/gui/CMakeFiles/install.dir
 /home/jakob/dev/OpenGL-Fractals/build/src/gui/CMakeFiles/install/local.dir
 /home/jakob/dev/OpenGL-Fractals/build/src/gui/CMakeFiles/install/strip.dir
+/home/jakob/dev/OpenGL-Fractals/build/src/rendering/CMakeFiles/renderer.dir
+/home/jakob/dev/OpenGL-Fractals/build/src/rendering/CMakeFiles/edit_cache.dir
+/home/jakob/dev/OpenGL-Fractals/build/src/rendering/CMakeFiles/rebuild_cache.dir
+/home/jakob/dev/OpenGL-Fractals/build/src/rendering/CMakeFiles/list_install_components.dir
+/home/jakob/dev/OpenGL-Fractals/build/src/rendering/CMakeFiles/install.dir
+/home/jakob/dev/OpenGL-Fractals/build/src/rendering/CMakeFiles/install/local.dir
+/home/jakob/dev/OpenGL-Fractals/build/src/rendering/CMakeFiles/install/strip.dir

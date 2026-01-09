@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles /home/jakob/dev/OpenGL-Fractals/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles /home/jakob/dev/OpenGL-Fractals/build/src/rendering//CMakeFiles/progress.marks
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/rendering/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/rendering/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,135 +148,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/rendering/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/rendering/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named glad
+# Convenience name for target.
+src/rendering/CMakeFiles/renderer.dir/rule:
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/rendering/CMakeFiles/renderer.dir/rule
+.PHONY : src/rendering/CMakeFiles/renderer.dir/rule
 
-# Build rule for target.
-glad: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad
-.PHONY : glad
-
-# fast build rule for target.
-glad/fast:
-	$(MAKE) $(MAKESILENT) -f dependencies/glad/CMakeFiles/glad.dir/build.make dependencies/glad/CMakeFiles/glad.dir/build
-.PHONY : glad/fast
-
-#=============================================================================
-# Target rules for targets named uninstall
-
-# Build rule for target.
-uninstall: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uninstall
-.PHONY : uninstall
-
-# fast build rule for target.
-uninstall/fast:
-	$(MAKE) $(MAKESILENT) -f dependencies/glfw/CMakeFiles/uninstall.dir/build.make dependencies/glfw/CMakeFiles/uninstall.dir/build
-.PHONY : uninstall/fast
-
-#=============================================================================
-# Target rules for targets named glfw
-
-# Build rule for target.
-glfw: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw
-.PHONY : glfw
-
-# fast build rule for target.
-glfw/fast:
-	$(MAKE) $(MAKESILENT) -f dependencies/glfw/src/CMakeFiles/glfw.dir/build.make dependencies/glfw/src/CMakeFiles/glfw.dir/build
-.PHONY : glfw/fast
-
-#=============================================================================
-# Target rules for targets named update_mappings
-
-# Build rule for target.
-update_mappings: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 update_mappings
-.PHONY : update_mappings
-
-# fast build rule for target.
-update_mappings/fast:
-	$(MAKE) $(MAKESILENT) -f dependencies/glfw/src/CMakeFiles/update_mappings.dir/build.make dependencies/glfw/src/CMakeFiles/update_mappings.dir/build
-.PHONY : update_mappings/fast
-
-#=============================================================================
-# Target rules for targets named glm
-
-# Build rule for target.
-glm: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glm
-.PHONY : glm
-
-# fast build rule for target.
-glm/fast:
-	$(MAKE) $(MAKESILENT) -f dependencies/glm/glm/CMakeFiles/glm.dir/build.make dependencies/glm/glm/CMakeFiles/glm.dir/build
-.PHONY : glm/fast
-
-#=============================================================================
-# Target rules for targets named imgui
-
-# Build rule for target.
-imgui: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imgui
-.PHONY : imgui
-
-# fast build rule for target.
-imgui/fast:
-	$(MAKE) $(MAKESILENT) -f dependencies/imgui/CMakeFiles/imgui.dir/build.make dependencies/imgui/CMakeFiles/imgui.dir/build
-.PHONY : imgui/fast
-
-#=============================================================================
-# Target rules for targets named openglProject
-
-# Build rule for target.
-openglProject: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openglProject
-.PHONY : openglProject
-
-# fast build rule for target.
-openglProject/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/openglProject.dir/build.make src/CMakeFiles/openglProject.dir/build
-.PHONY : openglProject/fast
-
-#=============================================================================
-# Target rules for targets named gui
-
-# Build rule for target.
-gui: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gui
-.PHONY : gui
-
-# fast build rule for target.
-gui/fast:
-	$(MAKE) $(MAKESILENT) -f src/gui/CMakeFiles/gui.dir/build.make src/gui/CMakeFiles/gui.dir/build
-.PHONY : gui/fast
-
-#=============================================================================
-# Target rules for targets named renderer
-
-# Build rule for target.
-renderer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 renderer
+# Convenience name for target.
+renderer: src/rendering/CMakeFiles/renderer.dir/rule
 .PHONY : renderer
 
 # fast build rule for target.
 renderer/fast:
-	$(MAKE) $(MAKESILENT) -f src/rendering/CMakeFiles/renderer.dir/build.make src/rendering/CMakeFiles/renderer.dir/build
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/rendering/CMakeFiles/renderer.dir/build.make src/rendering/CMakeFiles/renderer.dir/build
 .PHONY : renderer/fast
+
+renderer.o: renderer.cpp.o
+.PHONY : renderer.o
+
+# target to build an object file
+renderer.cpp.o:
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/rendering/CMakeFiles/renderer.dir/build.make src/rendering/CMakeFiles/renderer.dir/renderer.cpp.o
+.PHONY : renderer.cpp.o
+
+renderer.i: renderer.cpp.i
+.PHONY : renderer.i
+
+# target to preprocess a source file
+renderer.cpp.i:
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/rendering/CMakeFiles/renderer.dir/build.make src/rendering/CMakeFiles/renderer.dir/renderer.cpp.i
+.PHONY : renderer.cpp.i
+
+renderer.s: renderer.cpp.s
+.PHONY : renderer.s
+
+# target to generate assembly for a file
+renderer.cpp.s:
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/rendering/CMakeFiles/renderer.dir/build.make src/rendering/CMakeFiles/renderer.dir/renderer.cpp.s
+.PHONY : renderer.cpp.s
 
 # Help Target
 help:
@@ -290,15 +211,10 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... uninstall"
-	@echo "... update_mappings"
-	@echo "... glad"
-	@echo "... glfw"
-	@echo "... glm"
-	@echo "... gui"
-	@echo "... imgui"
-	@echo "... openglProject"
 	@echo "... renderer"
+	@echo "... renderer.o"
+	@echo "... renderer.i"
+	@echo "... renderer.s"
 .PHONY : help
 
 
@@ -310,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

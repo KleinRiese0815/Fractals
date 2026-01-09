@@ -2,6 +2,7 @@ add_executable(${PROJECT_NAME}
 main.cpp)
 
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/gui)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/rendering)
 
 target_include_directories(${PROJECT_NAME}
     PUBLIC

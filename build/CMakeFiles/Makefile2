@@ -202,15 +202,18 @@ dependencies/imgui/clean: dependencies/imgui/CMakeFiles/imgui.dir/clean
 # Recursive "all" directory target.
 src/all: src/CMakeFiles/openglProject.dir/all
 src/all: src/gui/all
+src/all: src/rendering/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
 src/preinstall: src/gui/preinstall
+src/preinstall: src/rendering/preinstall
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
 src/clean: src/CMakeFiles/openglProject.dir/clean
 src/clean: src/gui/clean
+src/clean: src/rendering/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -227,6 +230,21 @@ src/gui/preinstall:
 # Recursive "clean" directory target.
 src/gui/clean: src/gui/CMakeFiles/gui.dir/clean
 .PHONY : src/gui/clean
+
+#=============================================================================
+# Directory level rules for directory src/rendering
+
+# Recursive "all" directory target.
+src/rendering/all: src/rendering/CMakeFiles/renderer.dir/all
+.PHONY : src/rendering/all
+
+# Recursive "preinstall" directory target.
+src/rendering/preinstall:
+.PHONY : src/rendering/preinstall
+
+# Recursive "clean" directory target.
+src/rendering/clean: src/rendering/CMakeFiles/renderer.dir/clean
+.PHONY : src/rendering/clean
 
 #=============================================================================
 # Target rules for target dependencies/glad/CMakeFiles/glad.dir
@@ -313,7 +331,7 @@ dependencies/glfw/src/CMakeFiles/glfw.dir/clean:
 dependencies/glfw/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f dependencies/glfw/src/CMakeFiles/update_mappings.dir/build.make dependencies/glfw/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependencies/glfw/src/CMakeFiles/update_mappings.dir/build.make dependencies/glfw/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=62 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=64 "Built target update_mappings"
 .PHONY : dependencies/glfw/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -440,6 +458,33 @@ gui: src/gui/CMakeFiles/gui.dir/rule
 src/gui/CMakeFiles/gui.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/gui/CMakeFiles/gui.dir/build.make src/gui/CMakeFiles/gui.dir/clean
 .PHONY : src/gui/CMakeFiles/gui.dir/clean
+
+#=============================================================================
+# Target rules for target src/rendering/CMakeFiles/renderer.dir
+
+# All Build rule for target.
+src/rendering/CMakeFiles/renderer.dir/all: dependencies/glad/CMakeFiles/glad.dir/all
+src/rendering/CMakeFiles/renderer.dir/all: dependencies/glfw/src/CMakeFiles/glfw.dir/all
+	$(MAKE) $(MAKESILENT) -f src/rendering/CMakeFiles/renderer.dir/build.make src/rendering/CMakeFiles/renderer.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/rendering/CMakeFiles/renderer.dir/build.make src/rendering/CMakeFiles/renderer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=62,63 "Built target renderer"
+.PHONY : src/rendering/CMakeFiles/renderer.dir/all
+
+# Build rule for subdir invocation for target.
+src/rendering/CMakeFiles/renderer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles 49
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/rendering/CMakeFiles/renderer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles 0
+.PHONY : src/rendering/CMakeFiles/renderer.dir/rule
+
+# Convenience name for target.
+renderer: src/rendering/CMakeFiles/renderer.dir/rule
+.PHONY : renderer
+
+# clean rule for target.
+src/rendering/CMakeFiles/renderer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/rendering/CMakeFiles/renderer.dir/build.make src/rendering/CMakeFiles/renderer.dir/clean
+.PHONY : src/rendering/CMakeFiles/renderer.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
