@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jakob/dev/OpenGL-Fractals/src/rendering/renderer.cpp" "src/rendering/CMakeFiles/renderer.dir/renderer.cpp.o" "gcc" "src/rendering/CMakeFiles/renderer.dir/renderer.cpp.o.d"
+  "/home/jakob/dev/OpenGL-Fractals/src/rendering/shader.cpp" "src/rendering/CMakeFiles/renderer.dir/shader.cpp.o" "gcc" "src/rendering/CMakeFiles/renderer.dir/shader.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

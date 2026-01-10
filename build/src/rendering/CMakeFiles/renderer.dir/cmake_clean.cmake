@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/renderer.dir/renderer.cpp.o"
   "CMakeFiles/renderer.dir/renderer.cpp.o.d"
+  "CMakeFiles/renderer.dir/shader.cpp.o"
+  "CMakeFiles/renderer.dir/shader.cpp.o.d"
   "librenderer.a"
   "librenderer.pdb"
 )

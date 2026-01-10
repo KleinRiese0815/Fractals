@@ -93,6 +93,7 @@ openglProject_EXTERNAL_OBJECTS =
 src/openglProject: src/CMakeFiles/openglProject.dir/main.cpp.o
 src/openglProject: src/CMakeFiles/openglProject.dir/build.make
 src/openglProject: src/gui/libgui.a
+src/openglProject: src/rendering/librenderer.a
 src/openglProject: dependencies/glfw/src/libglfw3.a
 src/openglProject: dependencies/glad/libglad.a
 src/openglProject: dependencies/glm/glm/libglm.a
