@@ -52,3 +52,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/jakob/dev/OpenGL-Fractals/build/src/rendering/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/jakob/dev/OpenGL-Fractals/build/src/fractalScripts/cmake_install.cmake")
+endif()
+

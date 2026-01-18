@@ -22,6 +22,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/CMakeLists.txt"
   "/home/jakob/dev/OpenGL-Fractals/dependencies/imgui/CMakeLists.txt"
   "/home/jakob/dev/OpenGL-Fractals/src/CMakeLists.txt"
+  "/home/jakob/dev/OpenGL-Fractals/src/fractalScripts/CMakeLists.txt"
   "/home/jakob/dev/OpenGL-Fractals/src/gui/CMakeLists.txt"
   "/home/jakob/dev/OpenGL-Fractals/src/rendering/CMakeLists.txt"
   "/usr/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
@@ -84,6 +85,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/gui/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/rendering/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/fractalScripts/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -97,4 +99,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/openglProject.dir/DependInfo.cmake"
   "src/gui/CMakeFiles/gui.dir/DependInfo.cmake"
   "src/rendering/CMakeFiles/renderer.dir/DependInfo.cmake"
+  "src/fractalScripts/CMakeFiles/fractals.dir/DependInfo.cmake"
   )

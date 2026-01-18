@@ -94,13 +94,17 @@ src/openglProject: src/CMakeFiles/openglProject.dir/main.cpp.o
 src/openglProject: src/CMakeFiles/openglProject.dir/build.make
 src/openglProject: src/gui/libgui.a
 src/openglProject: src/rendering/librenderer.a
+src/openglProject: src/fractalScripts/libfractals.a
 src/openglProject: dependencies/glfw/src/libglfw3.a
 src/openglProject: dependencies/glad/libglad.a
 src/openglProject: dependencies/glm/glm/libglm.a
 src/openglProject: dependencies/imgui/libimgui.a
+src/openglProject: src/rendering/librenderer.a
 src/openglProject: dependencies/glfw/src/libglfw3.a
 src/openglProject: /usr/lib/x86_64-linux-gnu/librt.a
 src/openglProject: /usr/lib/x86_64-linux-gnu/libm.so
+src/openglProject: dependencies/glad/libglad.a
+src/openglProject: dependencies/glm/glm/libglm.a
 src/openglProject: src/CMakeFiles/openglProject.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable openglProject"
 	cd /home/jakob/dev/OpenGL-Fractals/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/openglProject.dir/link.txt --verbose=$(VERBOSE)

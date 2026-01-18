@@ -3,6 +3,7 @@ main.cpp)
 
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/gui)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/rendering)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/fractalScripts)
 
 target_include_directories(${PROJECT_NAME}
     PUBLIC
@@ -11,7 +12,8 @@ target_include_directories(${PROJECT_NAME}
 
 target_link_libraries(
     ${PROJECT_NAME}
-    PRIVATE
+    PRIVATE 
     gui
     renderer
+    fractals
 )

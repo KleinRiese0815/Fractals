@@ -61,3 +61,12 @@ void Shader::Unbind()
 {
     glUseProgram(0);
 }
+
+void Shader::SetUniformMat4f(const char* name, glm::mat4& value)
+{
+    int location = glGetUniformLocation(id, name);
+    if(location != -1)
+    {
+        glUniformMatrix4fv(location, 1, GL_FALSE, &value[0][0]);
+    }
+}

@@ -223,6 +223,30 @@ shader.cpp.s:
 	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/rendering/CMakeFiles/renderer.dir/build.make src/rendering/CMakeFiles/renderer.dir/shader.cpp.s
 .PHONY : shader.cpp.s
 
+vertex.o: vertex.cpp.o
+.PHONY : vertex.o
+
+# target to build an object file
+vertex.cpp.o:
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/rendering/CMakeFiles/renderer.dir/build.make src/rendering/CMakeFiles/renderer.dir/vertex.cpp.o
+.PHONY : vertex.cpp.o
+
+vertex.i: vertex.cpp.i
+.PHONY : vertex.i
+
+# target to preprocess a source file
+vertex.cpp.i:
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/rendering/CMakeFiles/renderer.dir/build.make src/rendering/CMakeFiles/renderer.dir/vertex.cpp.i
+.PHONY : vertex.cpp.i
+
+vertex.s: vertex.cpp.s
+.PHONY : vertex.s
+
+# target to generate assembly for a file
+vertex.cpp.s:
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/rendering/CMakeFiles/renderer.dir/build.make src/rendering/CMakeFiles/renderer.dir/vertex.cpp.s
+.PHONY : vertex.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -242,6 +266,9 @@ help:
 	@echo "... shader.o"
 	@echo "... shader.i"
 	@echo "... shader.s"
+	@echo "... vertex.o"
+	@echo "... vertex.i"
+	@echo "... vertex.s"
 .PHONY : help
 
 

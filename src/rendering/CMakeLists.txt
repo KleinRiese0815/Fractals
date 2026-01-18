@@ -14,4 +14,5 @@ target_link_libraries(renderer
     PUBLIC
     glfw
     glad
+    glm
 )

@@ -278,6 +278,19 @@ renderer/fast:
 	$(MAKE) $(MAKESILENT) -f src/rendering/CMakeFiles/renderer.dir/build.make src/rendering/CMakeFiles/renderer.dir/build
 .PHONY : renderer/fast
 
+#=============================================================================
+# Target rules for targets named fractals
+
+# Build rule for target.
+fractals: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fractals
+.PHONY : fractals
+
+# fast build rule for target.
+fractals/fast:
+	$(MAKE) $(MAKESILENT) -f src/fractalScripts/CMakeFiles/fractals.dir/build.make src/fractalScripts/CMakeFiles/fractals.dir/build
+.PHONY : fractals/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -292,6 +305,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... uninstall"
 	@echo "... update_mappings"
+	@echo "... fractals"
 	@echo "... glad"
 	@echo "... glfw"
 	@echo "... glm"

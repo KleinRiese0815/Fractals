@@ -1,6 +1,7 @@
 #pragma once
 #include <glad/glad.h>
 #include <string>
+#include <glm/glm.hpp>
 
 class Shader
 {
@@ -14,6 +15,8 @@ public:
     Shader(std::string, std::string);
     void Bind();
     void Unbind();
+    
+    void SetUniformMat4f(const char* name, glm::mat4& value);
 
 private:
     std::string ReadFromFile(const char* source);

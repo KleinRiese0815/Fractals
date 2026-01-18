@@ -10,6 +10,9 @@
 #include <shader.h>
 #include <filesystem>
 #include <renderer.h>
+#include <fractal.h>
+#include <SierpinskiTriangle.h>
+
 
 int main() {
     if (!glfwInit()) {
@@ -40,27 +43,29 @@ int main() {
     glfwGetFramebufferSize(window, &screen_width, &screen_height);
     glViewport(0, 0, screen_width, screen_height);
 
-
     Shader shader(std::filesystem::current_path().parent_path() / "shader/shader.vert", std::filesystem::current_path().parent_path() / "shader/shader.frag"); 
     shader.Bind();
 
-    Renderer renderer(window, shader);
-
+    Renderer renderer(screen_width, screen_height, window, shader);
+    
     std::cout << glGetError() << std::endl;         
     
     Gui::Init(screen_width, screen_height, window);
-   
+    
+    
+    SierpinskiTrinagle sierpinskiTriangle(&renderer);
+    sierpinskiTriangle.SetRecursionDepth(6);
 
     while (!glfwWindowShouldClose(window)) {
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
         
         Gui::UpdateVisuals();
-        
-        glDrawArrays(GL_TRIANGLES, 0, 3);
+       
+        renderer.Render();
 
         Gui::Render();
-
+        
         glfwSwapBuffers(window);
         glfwPollEvents();
     }
@@ -68,7 +73,6 @@ int main() {
     ImGui_ImplOpenGL3_Shutdown();
     ImGui_ImplGlfw_Shutdown();
     ImGui::DestroyContext();
-
 
     glfwDestroyWindow(window);
     glfwTerminate();

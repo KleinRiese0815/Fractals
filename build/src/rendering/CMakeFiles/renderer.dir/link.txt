@@ -1,2 +1,2 @@
-/usr/bin/ar qc librenderer.a CMakeFiles/renderer.dir/renderer.cpp.o CMakeFiles/renderer.dir/shader.cpp.o
+/usr/bin/ar qc librenderer.a CMakeFiles/renderer.dir/renderer.cpp.o CMakeFiles/renderer.dir/shader.cpp.o CMakeFiles/renderer.dir/vertex.cpp.o
 /usr/bin/ranlib librenderer.a
