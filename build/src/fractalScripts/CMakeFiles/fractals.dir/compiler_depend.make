@@ -160,6 +160,7 @@ src/fractalScripts/CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.o: /home/jakob
   /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/vec4.hpp \
   /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/SierpinskiTriangle.h \
   /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/fractal.h \
+  /home/jakob/dev/OpenGL-Fractals/src/rendering/VboIndex.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/renderer.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/shader.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/vertex.h \
@@ -573,6 +574,7 @@ src/fractalScripts/CMakeFiles/fractals.dir/triangle.cpp.o: /home/jakob/dev/OpenG
   /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/vec2.hpp \
   /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/vec3.hpp \
   /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/vec4.hpp \
+  /home/jakob/dev/OpenGL-Fractals/src/rendering/VboIndex.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/renderer.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/shader.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/vertex.h \
@@ -1028,6 +1030,8 @@ src/fractalScripts/CMakeFiles/fractals.dir/triangle.cpp.o: /home/jakob/dev/OpenG
 
 /usr/include/c++/13/initializer_list:
 
+/usr/include/c++/13/functional:
+
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
 /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/detail/func_trigonometric.inl:
@@ -1215,8 +1219,6 @@ src/fractalScripts/CMakeFiles/fractals.dir/triangle.cpp.o: /home/jakob/dev/OpenG
 /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/ext/scalar_int_sized.hpp:
 
 /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/ext/matrix_clip_space.inl:
-
-/usr/include/c++/13/functional:
 
 /usr/include/c++/13/pstl/pstl_config.h:
 
@@ -1465,6 +1467,8 @@ src/fractalScripts/CMakeFiles/fractals.dir/triangle.cpp.o: /home/jakob/dev/OpenG
 /usr/include/features-time64.h:
 
 /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/SierpinskiTriangle.h:
+
+/home/jakob/dev/OpenGL-Fractals/src/rendering/VboIndex.h:
 
 /usr/include/KHR/khrplatform.h:
 

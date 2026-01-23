@@ -165,6 +165,7 @@ src/CMakeFiles/openglProject.dir/main.cpp.o: /home/jakob/dev/OpenGL-Fractals/src
   /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/SierpinskiTriangle.h \
   /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/fractal.h \
   /home/jakob/dev/OpenGL-Fractals/src/gui/gui.h \
+  /home/jakob/dev/OpenGL-Fractals/src/rendering/VboIndex.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/renderer.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/shader.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/vertex.h \
@@ -699,6 +700,8 @@ src/CMakeFiles/openglProject.dir/main.cpp.o: /home/jakob/dev/OpenGL-Fractals/src
 
 /usr/include/c++/13/climits:
 
+/usr/include/c++/13/cerrno:
+
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
 /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/detail/func_trigonometric.inl:
@@ -875,11 +878,7 @@ src/CMakeFiles/openglProject.dir/main.cpp.o: /home/jakob/dev/OpenGL-Fractals/src
 
 /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/ext/matrix_double3x3.hpp:
 
-/usr/include/c++/13/cerrno:
-
 /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/ext/vector_uint2.hpp:
-
-/usr/include/c++/13/bits/codecvt.h:
 
 /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/detail/type_vec1.inl:
 
@@ -1152,6 +1151,10 @@ src/CMakeFiles/openglProject.dir/main.cpp.o: /home/jakob/dev/OpenGL-Fractals/src
 /usr/include/features-time64.h:
 
 /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/SierpinskiTriangle.h:
+
+/usr/include/c++/13/bits/codecvt.h:
+
+/home/jakob/dev/OpenGL-Fractals/src/rendering/VboIndex.h:
 
 /usr/include/KHR/khrplatform.h:
 

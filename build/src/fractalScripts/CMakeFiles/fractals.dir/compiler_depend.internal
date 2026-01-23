@@ -161,6 +161,7 @@ src/fractalScripts/CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.o
  /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/vec4.hpp
  /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/SierpinskiTriangle.h
  /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/fractal.h
+ /home/jakob/dev/OpenGL-Fractals/src/rendering/VboIndex.h
  /home/jakob/dev/OpenGL-Fractals/src/rendering/renderer.h
  /home/jakob/dev/OpenGL-Fractals/src/rendering/shader.h
  /home/jakob/dev/OpenGL-Fractals/src/rendering/vertex.h
@@ -575,6 +576,7 @@ src/fractalScripts/CMakeFiles/fractals.dir/triangle.cpp.o
  /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/vec2.hpp
  /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/vec3.hpp
  /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/vec4.hpp
+ /home/jakob/dev/OpenGL-Fractals/src/rendering/VboIndex.h
  /home/jakob/dev/OpenGL-Fractals/src/rendering/renderer.h
  /home/jakob/dev/OpenGL-Fractals/src/rendering/shader.h
  /home/jakob/dev/OpenGL-Fractals/src/rendering/vertex.h

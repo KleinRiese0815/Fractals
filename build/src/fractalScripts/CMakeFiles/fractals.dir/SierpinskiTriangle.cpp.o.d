@@ -368,4 +368,5 @@ src/fractalScripts/CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.o: \
  /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/gtc/../ext/matrix_transform.hpp \
  /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/gtc/../ext/matrix_transform.inl \
  /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/gtc/matrix_transform.inl \
+ /home/jakob/dev/OpenGL-Fractals/src/rendering/VboIndex.h \
  /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/fractal.h

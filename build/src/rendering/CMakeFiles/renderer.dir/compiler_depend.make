@@ -158,6 +158,7 @@ src/rendering/CMakeFiles/renderer.dir/renderer.cpp.o: /home/jakob/dev/OpenGL-Fra
   /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/vec2.hpp \
   /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/vec3.hpp \
   /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/vec4.hpp \
+  /home/jakob/dev/OpenGL-Fractals/src/rendering/VboIndex.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/renderer.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/shader.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/vertex.h \
@@ -829,8 +830,6 @@ src/rendering/CMakeFiles/renderer.dir/vertex.cpp.o: /home/jakob/dev/OpenGL-Fract
 
 /usr/include/c++/13/fstream:
 
-/usr/include/c++/13/bits/codecvt.h:
-
 /home/jakob/dev/OpenGL-Fractals/src/rendering/shader.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
@@ -1028,6 +1027,12 @@ src/rendering/CMakeFiles/renderer.dir/vertex.cpp.o: /home/jakob/dev/OpenGL-Fract
 /usr/include/c++/13/iostream:
 
 /usr/include/c++/13/ios:
+
+/usr/include/limits.h:
+
+/usr/include/c++/13/tr1/bessel_function.tcc:
+
+/usr/include/c++/13/initializer_list:
 
 /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/glm.hpp:
 
@@ -1271,12 +1276,6 @@ src/rendering/CMakeFiles/renderer.dir/vertex.cpp.o: /home/jakob/dev/OpenGL-Fract
 
 /home/jakob/dev/OpenGL-Fractals/dependencies/glfw/include/GLFW/glfw3.h:
 
-/usr/include/limits.h:
-
-/usr/include/c++/13/tr1/bessel_function.tcc:
-
-/usr/include/c++/13/initializer_list:
-
 /usr/include/stdc-predef.h:
 
 /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/ext/vector_float3_precision.hpp:
@@ -1476,6 +1475,10 @@ src/rendering/CMakeFiles/renderer.dir/vertex.cpp.o: /home/jakob/dev/OpenGL-Fract
 /usr/include/stdio.h:
 
 /usr/include/c++/13/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/13/bits/codecvt.h:
+
+/home/jakob/dev/OpenGL-Fractals/src/rendering/VboIndex.h:
 
 /usr/include/KHR/khrplatform.h:
 

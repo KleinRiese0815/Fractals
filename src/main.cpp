@@ -54,7 +54,7 @@ int main() {
     
     
     SierpinskiTrinagle sierpinskiTriangle(&renderer);
-    sierpinskiTriangle.SetRecursionDepth(6);
+    sierpinskiTriangle.SetRecursionDepth(11);
 
     while (!glfwWindowShouldClose(window)) {
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
@@ -62,7 +62,7 @@ int main() {
         
         Gui::UpdateVisuals();
        
-        renderer.Render();
+        renderer.Render(0, {0 });
 
         Gui::Render();
         

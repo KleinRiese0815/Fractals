@@ -10,13 +10,9 @@ KochSnowflake::KochSnowflake(Renderer* renderer) :
 
 std::vector<Vertex> KochSnowflake::Recursion(int depth, std::vector<Vertex> vertecies)
 {
-    int oldSize =    
-    std::vector<Vertex> newVertecies;
-
-    for(int i = 0; i < vertecies.size(); i += 3)
-    {
-
-    }
+    int oldSize = 0;   
+    
+    return std::vector<Vertex>();
 }
 
 void KochSnowflake::SetRecursionDepth(int desiredDepth)

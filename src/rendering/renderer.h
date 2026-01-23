@@ -8,14 +8,25 @@
 #include <vector>
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
+#include <VboIndex.h>
+
+enum RenderMode
+{
+    DrawArrays, DrawElements  
+};
+
+
 class Renderer
 {
 private:
-    unsigned int m_vbo;
     unsigned int m_vao;
     unsigned int m_ibo;
+    
+    RenderMode m_currentMode;
 
-    std::vector<Vertex> m_vertecies;
+    std::vector<unsigned int> m_vbos;
+
+    std::vector<std::vector<Vertex>> m_vertexBufferContents;
     std::vector<unsigned int> m_indecies;
 
     glm::mat4 m_projection;
@@ -27,16 +38,17 @@ public:
     Renderer(int, int, GLFWwindow* window, Shader shader);
     void LoadShader(std::string shaderSource, ShaderTypes type);
 
-    void PushBackVertecies(Vertex* vertecies, int count);
-    void PushBackIndecies(unsigned int*, int);
+    void PushBackVertecies(Vertex* vertecies, int count, int vboIndex);
+    void PushBackIndecies(unsigned int* indecies, int count);
     void EmptyVertexBuffer();
-    void Render();
+    void Render(int vbo, VboIndex ibo);
     
-    void PushBackTriangle(Vertex point1, Vertex point2, Vertex point3);
-    void PushBackSquare(glm::vec2 lowerLeft, glm::vec2 lowerRight, glm::vec2 upperLeft, glm::vec2 upperRight);
-
-    std::vector<Vertex>& GetVertexRef();
+    std::vector<Vertex>& GetVertexBufferContents(VboIndex index);
     std::vector<unsigned int>& GetIndexRef();
 
     void Empty();
+
+    VboIndex CreateVertexBuffer();
+
+    void SetRenderMode(RenderMode);
 };

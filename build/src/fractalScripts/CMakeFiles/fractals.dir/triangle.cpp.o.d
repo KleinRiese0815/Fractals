@@ -366,4 +366,5 @@ src/fractalScripts/CMakeFiles/fractals.dir/triangle.cpp.o: \
  /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/gtc/../ext/matrix_clip_space.inl \
  /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/gtc/../ext/matrix_transform.hpp \
  /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/gtc/../ext/matrix_transform.inl \
- /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/gtc/matrix_transform.inl
+ /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/gtc/matrix_transform.inl \
+ /home/jakob/dev/OpenGL-Fractals/src/rendering/VboIndex.h

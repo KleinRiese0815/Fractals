@@ -44,21 +44,18 @@ void SierpinskiTrinagle::SetRecursionDepth(int desiredDepth)
 {
     
     std::vector<Vertex> start;
-    start.push_back(Vertex(-200, -200));  //left
-    start.push_back(Vertex(200, -200)); //right
-    start.push_back(Vertex(0, 200)); //middle
+    start.push_back(Vertex(-400, -400));  //left
+    start.push_back(Vertex(400, -400)); //right
+    start.push_back(Vertex(0, 400)); //middle
     
     std::vector<Vertex> vertecies = Recursion(desiredDepth, start);
-    for(int i = 0; i < vertecies.size(); i += 3)
-    {
-        renderer->PushBackTriangle(vertecies[i + 0], vertecies[i + 1], vertecies[i + 2]);
-        
-    }
+    renderer->PushBackVertecies(vertecies.data(), vertecies.size(), 0);
+    renderer->SetRenderMode(DrawArrays);
 
     std::cout << "Vertecies:" << std::endl;
-    for(int i = 0; i < renderer->GetVertexRef().size(); i++)
+    for(int i = 0; i < renderer->GetVertexBufferContents({0}).size(); i++)
     {
-        std::cout << renderer->GetVertexRef()[i].x << "," << renderer->GetVertexRef()[i].y << std::endl;
+        std::cout << renderer->GetVertexBufferContents({0})[i].x << "," << renderer->GetVertexBufferContents({0})[i].y << std::endl;
     }
 
     std::cout << "Indecies:" << std::endl;
