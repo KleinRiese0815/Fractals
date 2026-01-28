@@ -162,6 +162,7 @@ src/CMakeFiles/openglProject.dir/main.cpp.o: /home/jakob/dev/OpenGL-Fractals/src
   /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/backends/imgui_impl_opengl3.h \
   /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imconfig.h \
   /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imgui.h \
+  /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/KochSnowflake.h \
   /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/SierpinskiTriangle.h \
   /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/fractal.h \
   /home/jakob/dev/OpenGL-Fractals/src/gui/gui.h \
@@ -842,10 +843,6 @@ src/CMakeFiles/openglProject.dir/main.cpp.o: /home/jakob/dev/OpenGL-Fractals/src
 
 /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/ext/matrix_float4x3.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/c++/13/bits/utility.h:
-
 /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/detail/type_mat3x3.inl:
 
 /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/detail/type_half.hpp:
@@ -995,6 +992,10 @@ src/CMakeFiles/openglProject.dir/main.cpp.o: /home/jakob/dev/OpenGL-Fractals/src
 /usr/include/c++/13/tr1/poly_laguerre.tcc:
 
 /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/ext/vector_int2.hpp:
+
+/usr/include/c++/13/cctype:
+
+/home/jakob/dev/OpenGL-Fractals/src/main.cpp:
 
 /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/ext/matrix_float3x3.hpp:
 
@@ -1147,6 +1148,12 @@ src/CMakeFiles/openglProject.dir/main.cpp.o: /home/jakob/dev/OpenGL-Fractals/src
 /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/ext/vector_double2_precision.hpp:
 
 /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imgui.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/c++/13/bits/utility.h:
+
+/home/jakob/dev/OpenGL-Fractals/src/fractalScripts/KochSnowflake.h:
 
 /usr/include/features-time64.h:
 
@@ -1329,7 +1336,3 @@ src/CMakeFiles/openglProject.dir/main.cpp.o: /home/jakob/dev/OpenGL-Fractals/src
 /usr/include/c++/13/bits/string_view.tcc:
 
 /usr/include/c++/13/bits/vector.tcc:
-
-/home/jakob/dev/OpenGL-Fractals/src/main.cpp:
-
-/usr/include/c++/13/cctype:

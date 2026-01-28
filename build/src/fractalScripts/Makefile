@@ -175,6 +175,30 @@ fractals/fast:
 	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/fractalScripts/CMakeFiles/fractals.dir/build.make src/fractalScripts/CMakeFiles/fractals.dir/build
 .PHONY : fractals/fast
 
+KochSnowflake.o: KochSnowflake.cpp.o
+.PHONY : KochSnowflake.o
+
+# target to build an object file
+KochSnowflake.cpp.o:
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/fractalScripts/CMakeFiles/fractals.dir/build.make src/fractalScripts/CMakeFiles/fractals.dir/KochSnowflake.cpp.o
+.PHONY : KochSnowflake.cpp.o
+
+KochSnowflake.i: KochSnowflake.cpp.i
+.PHONY : KochSnowflake.i
+
+# target to preprocess a source file
+KochSnowflake.cpp.i:
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/fractalScripts/CMakeFiles/fractals.dir/build.make src/fractalScripts/CMakeFiles/fractals.dir/KochSnowflake.cpp.i
+.PHONY : KochSnowflake.cpp.i
+
+KochSnowflake.s: KochSnowflake.cpp.s
+.PHONY : KochSnowflake.s
+
+# target to generate assembly for a file
+KochSnowflake.cpp.s:
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/fractalScripts/CMakeFiles/fractals.dir/build.make src/fractalScripts/CMakeFiles/fractals.dir/KochSnowflake.cpp.s
+.PHONY : KochSnowflake.cpp.s
+
 SierpinskiTriangle.o: SierpinskiTriangle.cpp.o
 .PHONY : SierpinskiTriangle.o
 
@@ -236,6 +260,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... fractals"
+	@echo "... KochSnowflake.o"
+	@echo "... KochSnowflake.i"
+	@echo "... KochSnowflake.s"
 	@echo "... SierpinskiTriangle.o"
 	@echo "... SierpinskiTriangle.i"
 	@echo "... SierpinskiTriangle.s"

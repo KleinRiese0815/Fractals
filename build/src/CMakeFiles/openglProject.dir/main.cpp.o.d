@@ -391,4 +391,5 @@ src/CMakeFiles/openglProject.dir/main.cpp.o: \
  /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/gtc/matrix_transform.inl \
  /home/jakob/dev/OpenGL-Fractals/src/rendering/VboIndex.h \
  /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/fractal.h \
- /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/SierpinskiTriangle.h
+ /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/SierpinskiTriangle.h \
+ /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/KochSnowflake.h

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/fractals.dir/KochSnowflake.cpp.o"
+  "CMakeFiles/fractals.dir/KochSnowflake.cpp.o.d"
   "CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.o"
   "CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.o.d"
   "CMakeFiles/fractals.dir/triangle.cpp.o"

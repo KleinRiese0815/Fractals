@@ -1,2 +1,2 @@
-/usr/bin/ar qc libfractals.a CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.o CMakeFiles/fractals.dir/triangle.cpp.o
+/usr/bin/ar qc libfractals.a CMakeFiles/fractals.dir/KochSnowflake.cpp.o CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.o CMakeFiles/fractals.dir/triangle.cpp.o
 /usr/bin/ranlib libfractals.a

@@ -69,10 +69,24 @@ include src/fractalScripts/CMakeFiles/fractals.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/fractalScripts/CMakeFiles/fractals.dir/flags.make
 
+src/fractalScripts/CMakeFiles/fractals.dir/KochSnowflake.cpp.o: src/fractalScripts/CMakeFiles/fractals.dir/flags.make
+src/fractalScripts/CMakeFiles/fractals.dir/KochSnowflake.cpp.o: /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/KochSnowflake.cpp
+src/fractalScripts/CMakeFiles/fractals.dir/KochSnowflake.cpp.o: src/fractalScripts/CMakeFiles/fractals.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/fractalScripts/CMakeFiles/fractals.dir/KochSnowflake.cpp.o"
+	cd /home/jakob/dev/OpenGL-Fractals/build/src/fractalScripts && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/fractalScripts/CMakeFiles/fractals.dir/KochSnowflake.cpp.o -MF CMakeFiles/fractals.dir/KochSnowflake.cpp.o.d -o CMakeFiles/fractals.dir/KochSnowflake.cpp.o -c /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/KochSnowflake.cpp
+
+src/fractalScripts/CMakeFiles/fractals.dir/KochSnowflake.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fractals.dir/KochSnowflake.cpp.i"
+	cd /home/jakob/dev/OpenGL-Fractals/build/src/fractalScripts && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/KochSnowflake.cpp > CMakeFiles/fractals.dir/KochSnowflake.cpp.i
+
+src/fractalScripts/CMakeFiles/fractals.dir/KochSnowflake.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fractals.dir/KochSnowflake.cpp.s"
+	cd /home/jakob/dev/OpenGL-Fractals/build/src/fractalScripts && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/KochSnowflake.cpp -o CMakeFiles/fractals.dir/KochSnowflake.cpp.s
+
 src/fractalScripts/CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.o: src/fractalScripts/CMakeFiles/fractals.dir/flags.make
 src/fractalScripts/CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.o: /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/SierpinskiTriangle.cpp
 src/fractalScripts/CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.o: src/fractalScripts/CMakeFiles/fractals.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/fractalScripts/CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/fractalScripts/CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.o"
 	cd /home/jakob/dev/OpenGL-Fractals/build/src/fractalScripts && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/fractalScripts/CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.o -MF CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.o.d -o CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.o -c /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/SierpinskiTriangle.cpp
 
 src/fractalScripts/CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.i: cmake_force
@@ -86,7 +100,7 @@ src/fractalScripts/CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.s: cmake_force
 src/fractalScripts/CMakeFiles/fractals.dir/triangle.cpp.o: src/fractalScripts/CMakeFiles/fractals.dir/flags.make
 src/fractalScripts/CMakeFiles/fractals.dir/triangle.cpp.o: /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/triangle.cpp
 src/fractalScripts/CMakeFiles/fractals.dir/triangle.cpp.o: src/fractalScripts/CMakeFiles/fractals.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/fractalScripts/CMakeFiles/fractals.dir/triangle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/fractalScripts/CMakeFiles/fractals.dir/triangle.cpp.o"
 	cd /home/jakob/dev/OpenGL-Fractals/build/src/fractalScripts && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/fractalScripts/CMakeFiles/fractals.dir/triangle.cpp.o -MF CMakeFiles/fractals.dir/triangle.cpp.o.d -o CMakeFiles/fractals.dir/triangle.cpp.o -c /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/triangle.cpp
 
 src/fractalScripts/CMakeFiles/fractals.dir/triangle.cpp.i: cmake_force
@@ -99,17 +113,19 @@ src/fractalScripts/CMakeFiles/fractals.dir/triangle.cpp.s: cmake_force
 
 # Object files for target fractals
 fractals_OBJECTS = \
+"CMakeFiles/fractals.dir/KochSnowflake.cpp.o" \
 "CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.o" \
 "CMakeFiles/fractals.dir/triangle.cpp.o"
 
 # External object files for target fractals
 fractals_EXTERNAL_OBJECTS =
 
+src/fractalScripts/libfractals.a: src/fractalScripts/CMakeFiles/fractals.dir/KochSnowflake.cpp.o
 src/fractalScripts/libfractals.a: src/fractalScripts/CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.o
 src/fractalScripts/libfractals.a: src/fractalScripts/CMakeFiles/fractals.dir/triangle.cpp.o
 src/fractalScripts/libfractals.a: src/fractalScripts/CMakeFiles/fractals.dir/build.make
 src/fractalScripts/libfractals.a: src/fractalScripts/CMakeFiles/fractals.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libfractals.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libfractals.a"
 	cd /home/jakob/dev/OpenGL-Fractals/build/src/fractalScripts && $(CMAKE_COMMAND) -P CMakeFiles/fractals.dir/cmake_clean_target.cmake
 	cd /home/jakob/dev/OpenGL-Fractals/build/src/fractalScripts && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fractals.dir/link.txt --verbose=$(VERBOSE)
 
