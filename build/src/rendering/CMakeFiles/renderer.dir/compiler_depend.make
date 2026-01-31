@@ -359,6 +359,7 @@ src/rendering/CMakeFiles/renderer.dir/renderer.cpp.o: /home/jakob/dev/OpenGL-Fra
   /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/vec2.hpp \
   /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/vec3.hpp \
   /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/vec4.hpp \
+  /home/jakob/dev/OpenGL-Fractals/src/rendering/IboIndex.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/VboIndex.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/renderer.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/shader.h \
@@ -1303,6 +1304,8 @@ src/rendering/CMakeFiles/renderer.dir/vertex.cpp.o: /home/jakob/dev/OpenGL-Fract
 /usr/include/c++/13/array:
 
 /home/jakob/dev/OpenGL-Fractals/src/rendering/shader.h:
+
+/home/jakob/dev/OpenGL-Fractals/src/rendering/IboIndex.h:
 
 /usr/include/assert.h:
 

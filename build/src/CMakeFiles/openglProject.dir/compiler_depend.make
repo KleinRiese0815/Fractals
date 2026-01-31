@@ -167,6 +167,7 @@ src/CMakeFiles/openglProject.dir/main.cpp.o: /home/jakob/dev/OpenGL-Fractals/src
   /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/SierpinskiTriangle.h \
   /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/fractal.h \
   /home/jakob/dev/OpenGL-Fractals/src/gui/gui.h \
+  /home/jakob/dev/OpenGL-Fractals/src/rendering/IboIndex.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/VboIndex.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/computeShader.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/renderer.h \
@@ -711,6 +712,8 @@ src/CMakeFiles/openglProject.dir/main.cpp.o: /home/jakob/dev/OpenGL-Fractals/src
 
 /usr/include/c++/13/bits/vector.tcc:
 
+/usr/include/c++/13/bits/uses_allocator_args.h:
+
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
 /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/detail/func_trigonometric.inl:
@@ -1165,6 +1168,8 @@ src/CMakeFiles/openglProject.dir/main.cpp.o: /home/jakob/dev/OpenGL-Fractals/src
 
 /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imgui.h:
 
+/home/jakob/dev/OpenGL-Fractals/src/rendering/IboIndex.h:
+
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /usr/include/c++/13/bits/utility.h:
@@ -1296,8 +1301,6 @@ src/CMakeFiles/openglProject.dir/main.cpp.o: /home/jakob/dev/OpenGL-Fractals/src
 /usr/include/c++/13/cfloat:
 
 /usr/include/c++/13/bits/nested_exception.h:
-
-/usr/include/c++/13/bits/uses_allocator_args.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 

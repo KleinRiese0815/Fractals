@@ -12,7 +12,7 @@
 
 enum RenderMode
 {
-    DrawArrays, DrawElements  
+    DrawArrays, DrawElements, DrawLines  
 };
 
 
@@ -30,6 +30,8 @@ private:
     std::vector<unsigned int> m_indecies;
 
     glm::mat4 m_projection;
+
+    void BindVboToVao(VboIndex vbo);
 public:
 
     enum ShaderTypes{vertex, fragment};
@@ -38,10 +40,10 @@ public:
     Renderer(int, int, GLFWwindow* window, Shader shader);
     void LoadShader(std::string shaderSource, ShaderTypes type);
 
-    void PushBackVertecies(Vertex* vertecies, int count, int vboIndex);
+    void PushBackVertecies(Vertex* vertecies, int count, VboIndex vboIndex);
     void PushBackIndecies(unsigned int* indecies, int count);
     void EmptyVertexBuffer();
-    void Render(int vbo, VboIndex ibo);
+    void Render(int ibo, VboIndex vbo);
     
     std::vector<Vertex>& GetVertexBufferContents(VboIndex index);
     std::vector<unsigned int>& GetIndexRef();

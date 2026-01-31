@@ -1,5 +1,16 @@
-[] When Fractal Iteration is saled down : only delete Vertecies from Buffer, wich arent needed and do not clear whole buffer
+------------------------------------------------INPROGRESS------------------------------------------------
 
-[] Empty-Renderer Function
+[] When Fractal Iteration is scaled down : only delete Vertecies from Buffer, wich arent needed and do not clear whole buffer
 
-[] Empty 
+[] Empty-Function Renderer
+
+
+
+Implementing Comput Shaders:
+
+
+
+
+------------------------------------------------DONE------------------------------------------------
+
+[X] Calculation Snowflake

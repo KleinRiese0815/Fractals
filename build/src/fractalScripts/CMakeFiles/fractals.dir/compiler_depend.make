@@ -161,6 +161,7 @@ src/fractalScripts/CMakeFiles/fractals.dir/KochSnowflake.cpp.o: /home/jakob/dev/
   /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/vec4.hpp \
   /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/KochSnowflake.h \
   /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/fractal.h \
+  /home/jakob/dev/OpenGL-Fractals/src/rendering/IboIndex.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/VboIndex.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/renderer.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/shader.h \
@@ -577,6 +578,7 @@ src/fractalScripts/CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.o: /home/jakob
   /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/vec4.hpp \
   /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/SierpinskiTriangle.h \
   /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/fractal.h \
+  /home/jakob/dev/OpenGL-Fractals/src/rendering/IboIndex.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/VboIndex.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/renderer.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/shader.h \
@@ -991,6 +993,7 @@ src/fractalScripts/CMakeFiles/fractals.dir/triangle.cpp.o: /home/jakob/dev/OpenG
   /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/vec2.hpp \
   /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/vec3.hpp \
   /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/vec4.hpp \
+  /home/jakob/dev/OpenGL-Fractals/src/rendering/IboIndex.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/VboIndex.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/renderer.h \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/shader.h \
@@ -1454,6 +1457,8 @@ src/fractalScripts/CMakeFiles/fractals.dir/triangle.cpp.o: /home/jakob/dev/OpenG
 
 /usr/include/c++/13/functional:
 
+/usr/include/c++/13/ext/type_traits.h:
+
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
 /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/detail/func_trigonometric.inl:
@@ -1790,8 +1795,6 @@ src/fractalScripts/CMakeFiles/fractals.dir/triangle.cpp.o: /home/jakob/dev/OpenG
 
 /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/mat3x2.hpp:
 
-/usr/include/c++/13/ext/type_traits.h:
-
 /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/ext/vector_double3.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
@@ -1889,6 +1892,8 @@ src/fractalScripts/CMakeFiles/fractals.dir/triangle.cpp.o: /home/jakob/dev/OpenG
 /usr/include/c++/13/bits/utility.h:
 
 /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/KochSnowflake.h:
+
+/home/jakob/dev/OpenGL-Fractals/src/rendering/IboIndex.h:
 
 /home/jakob/dev/OpenGL-Fractals/src/rendering/VboIndex.h:
 

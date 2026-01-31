@@ -1,15 +1,13 @@
 #include <SierpinskiTriangle.h>
 
 SierpinskiTrinagle::SierpinskiTrinagle(Renderer* renderer) :
-    renderer(renderer)
+    renderer(renderer), m_vboIndex(renderer->CreateVertexBuffer())
 {
     
 }
 
 std::vector<Vertex> SierpinskiTrinagle::Recursion(int depth, std::vector<Vertex>& vertecies)
 {
-    std::cout << "Hello" << std::endl;
-
     std::vector<Vertex> nextVertecies;
     for(int i = 0; i < vertecies.size(); i += 3)
     {
@@ -49,20 +47,14 @@ void SierpinskiTrinagle::SetRecursionDepth(int desiredDepth)
     start.push_back(Vertex(0, 400)); //middle
     
     std::vector<Vertex> vertecies = Recursion(desiredDepth, start);
-    renderer->PushBackVertecies(vertecies.data(), vertecies.size(), 0);
+    renderer->PushBackVertecies(vertecies.data(), vertecies.size(), m_vboIndex);
     renderer->SetRenderMode(DrawArrays);
 
-    std::cout << "Vertecies:" << std::endl;
-    for(int i = 0; i < renderer->GetVertexBufferContents({0}).size(); i++)
-    {
-        std::cout << renderer->GetVertexBufferContents({0})[i].x << "," << renderer->GetVertexBufferContents({0})[i].y << std::endl;
-    }
-
-    std::cout << "Indecies:" << std::endl;
-    for(int i = 0; i < renderer->GetIndexRef().size(); i++)
-    {
-        std::cout << renderer->GetIndexRef()[i] << std::endl;
-    }
-
     currentDepth = desiredDepth;
+}
+
+void SierpinskiTrinagle::OnDraw()
+{
+    renderer->SetRenderMode(RenderMode::DrawArrays);
+    renderer->Render(0, m_vboIndex);
 }

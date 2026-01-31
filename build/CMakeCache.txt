@@ -290,6 +290,9 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 //Doxygen documentation generation tool (https://www.doxygen.nl)
 DOXYGEN_EXECUTABLE:FILEPATH=DOXYGEN_EXECUTABLE-NOTFOUND
 
+//No help, variable specified on the command line.
+EXPORT_COMPILE_COMMANDS:UNINITIALIZED=ON
+
 //Value Computed by CMake
 GLFW_BINARY_DIR:STATIC=/home/jakob/dev/OpenGL-Fractals/build/dependencies/glfw
 

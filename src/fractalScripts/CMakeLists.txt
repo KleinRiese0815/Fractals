@@ -5,6 +5,7 @@ add_library(fractals
     ${FRACTALSCRIPTS_SOURCE}    
 )
 
+
 target_include_directories(fractals
     PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}

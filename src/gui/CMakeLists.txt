@@ -12,4 +12,5 @@ target_include_directories(gui
 target_link_libraries(gui
     PUBLIC
     imgui
+    fractals
 )

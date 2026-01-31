@@ -8,35 +8,23 @@
 Renderer::Renderer(int windowWidth, int windowHeight, GLFWwindow* window, Shader shader):
     m_vertexBufferContents(0), m_projection(glm::mat4(1.0)), m_currentMode(RenderMode::DrawElements)
 {
-    m_vbos.push_back(0);
-    m_vertexBufferContents.push_back(std::vector<Vertex>());
     //Set projection matrix
     m_projection = glm::ortho(-windowWidth / 2.0f, windowWidth / 2.0f, -windowHeight / 2.0f, windowHeight / 2.0f, -1.0f, 1.0f);
 
     glGenVertexArrays(1, &m_vao);
-    glBindVertexArray(m_vao);
-
-    glGenBuffers(1, &m_vbos[0]);
-    glBindBuffer(GL_ARRAY_BUFFER, m_vbos[0]); 
-   
-    glGenBuffers(1, &m_ibo);
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_ibo);
-    
-    glEnableVertexAttribArray(0);
-    glVertexAttribPointer(0, 2, GL_FLOAT, false, sizeof(float) * 2, nullptr);
     
     shader.Bind();
 
     shader.SetUniformMat4f("projection", m_projection);
 }
 
-void Renderer::PushBackVertecies(Vertex* vertecies, int count, int vboIndex = 0)
+void Renderer::PushBackVertecies(Vertex* vertecies, int count, VboIndex vboIndex = {0})
 {
-    std::vector<Vertex>& selectedVertexBuffer = m_vertexBufferContents[vboIndex];
+    std::vector<Vertex>& selectedVertexBuffer = m_vertexBufferContents[static_cast<size_t>(vboIndex)];
 
     size_t oldSize = selectedVertexBuffer.size();
     size_t newSize = oldSize + count;
-    glBindBuffer(GL_ARRAY_BUFFER, m_vbos[vboIndex]);
+    glBindBuffer(GL_ARRAY_BUFFER, m_vbos[static_cast<size_t>(vboIndex)]);
     
     if(newSize > selectedVertexBuffer.capacity())
     {
@@ -75,8 +63,7 @@ void Renderer::PushBackIndecies(unsigned int* indecies, int count)
 
 void Renderer::Render(int ibo = 0, VboIndex vbo = { 0 })
 {
-    
-    glBindBuffer(GL_ARRAY_BUFFER, m_ibo);
+    BindVboToVao(vbo);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_ibo);
     
     if(m_currentMode == DrawElements)
@@ -85,6 +72,10 @@ void Renderer::Render(int ibo = 0, VboIndex vbo = { 0 })
     }else if(m_currentMode == DrawArrays)
     {
         glDrawArrays(GL_TRIANGLES, 0, m_vertexBufferContents[static_cast<size_t>(vbo)].size());
+    }
+    else if(m_currentMode == DrawLines) 
+    {
+        glDrawArrays(GL_LINES, 0, m_vertexBufferContents[static_cast<size_t>(vbo)].size());
     }
 }
 
@@ -110,7 +101,14 @@ void Renderer::Empty()
 VboIndex Renderer::CreateVertexBuffer()
 {
     unsigned int vbo = 0;
+    glBindVertexArray(m_vao);
+
     glGenBuffers(1, &vbo);
+    glBindBuffer(GL_ARRAY_BUFFER, vbo);
+    
+    glEnableVertexAttribArray(0);
+    glVertexAttribPointer(0, 2, GL_FLOAT, false, sizeof(float) * 2, nullptr);
+
     m_vbos.push_back(vbo);
     m_vertexBufferContents.push_back(std::vector<Vertex>());
 
@@ -118,3 +116,13 @@ VboIndex Renderer::CreateVertexBuffer()
 }
 
 void Renderer::SetRenderMode(RenderMode desiredMode) {  m_currentMode = desiredMode; }
+
+void Renderer::BindVboToVao(VboIndex vbo)
+{
+    glBindVertexArray(m_vao);
+
+    glBindBuffer(GL_ARRAY_BUFFER, m_vbos[static_cast<size_t>(vbo)]);
+
+    glEnableVertexAttribArray(0);
+    glVertexAttribPointer(0, 2, GL_FLOAT, false, sizeof(float) * 2, nullptr);
+}

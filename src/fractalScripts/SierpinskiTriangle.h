@@ -9,6 +9,7 @@ class SierpinskiTrinagle : public Fractal
 {
     Renderer* renderer; 
     int currentDepth;       //How many times the Fractal ist iteratet
+    VboIndex m_vboIndex;
 
     const int lowerLeftVertexOffset = 0;
     const int lowerRightVertexOffset = 1;
@@ -20,4 +21,5 @@ public:
     std::vector<Vertex> Recursion(int depth, std::vector<Vertex>& vertecies);
 
     void SetRecursionDepth(int desiredDepth) override;
+    void OnDraw() override;
 };

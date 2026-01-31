@@ -3,8 +3,8 @@
 
 dependencies/glad/CMakeFiles/glad.dir/src/glad.c.o
  /home/jakob/dev/OpenGL-Fractals/dependencies/glad/src/glad.c
+ /home/jakob/dev/OpenGL-Fractals/dependencies/glad/include/KHR/khrplatform.h
  /home/jakob/dev/OpenGL-Fractals/dependencies/glad/include/glad/glad.h
- /usr/include/KHR/khrplatform.h
  /usr/include/alloca.h
  /usr/include/dlfcn.h
  /usr/include/endian.h

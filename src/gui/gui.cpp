@@ -1,8 +1,13 @@
+#include "fractal.h"
 #include "imgui.h"
 #include<gui.h>
 
 int Gui::displayHeight = 0;
 int Gui::displayWidth = 0;
+
+void(*Gui::geometryFractalSelectCallback)(GeometryFractalTypes) = nullptr;
+void(*Gui::mathFractalSelectCallback)(MathFractalTypes) = nullptr;
+
 
 void Gui::Init(int displayWidth, int displayHeight, GLFWwindow* window)
 {
@@ -44,7 +49,15 @@ void MenuBar::Render()
             
             if(ImGui::BeginMenu("Open"))
             {
-                ImGui::MenuItem("Kochsche Schneeflocke");
+                if(ImGui::MenuItem("Sierpinski Triangle") && Gui::geometryFractalSelectCallback)
+                {
+                    Gui::geometryFractalSelectCallback(GeometryFractalTypes::sierpinskiTriangle);
+                }
+
+                if(ImGui::MenuItem("Kochsche Schneeflocke") && Gui::geometryFractalSelectCallback)
+                {
+                    Gui::geometryFractalSelectCallback(GeometryFractalTypes::kochSnowflake);
+                }
                 
                 ImGui::EndMenu();
             }
@@ -64,7 +77,6 @@ void MenuBar::Render()
 
         ImGui::EndMainMenuBar();    
     }
-    
 }
 
 void PropertyWindow::Render()
@@ -84,4 +96,14 @@ void PropertyWindow::Render()
 
     ImGui::Begin("Properties", NULL, windowflags);
     ImGui::End();
+}
+
+void Gui::SetGeometryCallBack(void (*callback)(GeometryFractalTypes))
+{
+    Gui::geometryFractalSelectCallback = callback;
+}
+
+void Gui::SetMathCallback(void (*callback)(MathFractalTypes))
+{
+    Gui::mathFractalSelectCallback = callback;
 }
