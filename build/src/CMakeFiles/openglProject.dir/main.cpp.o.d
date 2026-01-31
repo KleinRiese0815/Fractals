@@ -19,7 +19,7 @@ src/CMakeFiles/openglProject.dir/main.cpp.o: \
  /usr/include/strings.h /usr/include/assert.h \
  /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/backends/imgui_impl_opengl3.h \
  /home/jakob/dev/OpenGL-Fractals/dependencies/glad/include/glad/glad.h \
- /usr/include/KHR/khrplatform.h \
+ /home/jakob/dev/OpenGL-Fractals/dependencies/glad/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
@@ -392,4 +392,10 @@ src/CMakeFiles/openglProject.dir/main.cpp.o: \
  /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/fractal.h \
  /home/jakob/dev/OpenGL-Fractals/src/gui/gui.h \
  /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/SierpinskiTriangle.h \
- /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/KochSnowflake.h
+ /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/KochSnowflake.h \
+ /home/jakob/dev/OpenGL-Fractals/src/rendering/computeShader.h \
+ /home/jakob/dev/OpenGL-Fractals/src/rendering/texture.h \
+ /usr/include/c++/13/fstream \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
+ /usr/include/c++/13/bits/fstream.tcc

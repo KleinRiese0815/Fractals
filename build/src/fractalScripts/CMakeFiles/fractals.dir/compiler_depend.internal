@@ -3,6 +3,7 @@
 
 src/fractalScripts/CMakeFiles/fractals.dir/KochSnowflake.cpp.o
  /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/KochSnowflake.cpp
+ /home/jakob/dev/OpenGL-Fractals/dependencies/glad/include/KHR/khrplatform.h
  /home/jakob/dev/OpenGL-Fractals/dependencies/glad/include/glad/glad.h
  /home/jakob/dev/OpenGL-Fractals/dependencies/glfw/include/GLFW/glfw3.h
  /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/common.hpp
@@ -165,7 +166,6 @@ src/fractalScripts/CMakeFiles/fractals.dir/KochSnowflake.cpp.o
  /home/jakob/dev/OpenGL-Fractals/src/rendering/renderer.h
  /home/jakob/dev/OpenGL-Fractals/src/rendering/shader.h
  /home/jakob/dev/OpenGL-Fractals/src/rendering/vertex.h
- /usr/include/KHR/khrplatform.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -420,6 +420,7 @@ src/fractalScripts/CMakeFiles/fractals.dir/KochSnowflake.cpp.o
 
 src/fractalScripts/CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.o
  /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/SierpinskiTriangle.cpp
+ /home/jakob/dev/OpenGL-Fractals/dependencies/glad/include/KHR/khrplatform.h
  /home/jakob/dev/OpenGL-Fractals/dependencies/glad/include/glad/glad.h
  /home/jakob/dev/OpenGL-Fractals/dependencies/glfw/include/GLFW/glfw3.h
  /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/common.hpp
@@ -582,7 +583,6 @@ src/fractalScripts/CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.o
  /home/jakob/dev/OpenGL-Fractals/src/rendering/renderer.h
  /home/jakob/dev/OpenGL-Fractals/src/rendering/shader.h
  /home/jakob/dev/OpenGL-Fractals/src/rendering/vertex.h
- /usr/include/KHR/khrplatform.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -837,6 +837,7 @@ src/fractalScripts/CMakeFiles/fractals.dir/SierpinskiTriangle.cpp.o
 
 src/fractalScripts/CMakeFiles/fractals.dir/triangle.cpp.o
  /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/triangle.cpp
+ /home/jakob/dev/OpenGL-Fractals/dependencies/glad/include/KHR/khrplatform.h
  /home/jakob/dev/OpenGL-Fractals/dependencies/glad/include/glad/glad.h
  /home/jakob/dev/OpenGL-Fractals/dependencies/glfw/include/GLFW/glfw3.h
  /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/common.hpp
@@ -997,7 +998,6 @@ src/fractalScripts/CMakeFiles/fractals.dir/triangle.cpp.o
  /home/jakob/dev/OpenGL-Fractals/src/rendering/renderer.h
  /home/jakob/dev/OpenGL-Fractals/src/rendering/shader.h
  /home/jakob/dev/OpenGL-Fractals/src/rendering/vertex.h
- /usr/include/KHR/khrplatform.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h

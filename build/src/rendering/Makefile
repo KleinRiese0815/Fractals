@@ -175,6 +175,30 @@ renderer/fast:
 	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/rendering/CMakeFiles/renderer.dir/build.make src/rendering/CMakeFiles/renderer.dir/build
 .PHONY : renderer/fast
 
+computeShader.o: computeShader.cpp.o
+.PHONY : computeShader.o
+
+# target to build an object file
+computeShader.cpp.o:
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/rendering/CMakeFiles/renderer.dir/build.make src/rendering/CMakeFiles/renderer.dir/computeShader.cpp.o
+.PHONY : computeShader.cpp.o
+
+computeShader.i: computeShader.cpp.i
+.PHONY : computeShader.i
+
+# target to preprocess a source file
+computeShader.cpp.i:
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/rendering/CMakeFiles/renderer.dir/build.make src/rendering/CMakeFiles/renderer.dir/computeShader.cpp.i
+.PHONY : computeShader.cpp.i
+
+computeShader.s: computeShader.cpp.s
+.PHONY : computeShader.s
+
+# target to generate assembly for a file
+computeShader.cpp.s:
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/rendering/CMakeFiles/renderer.dir/build.make src/rendering/CMakeFiles/renderer.dir/computeShader.cpp.s
+.PHONY : computeShader.cpp.s
+
 renderer.o: renderer.cpp.o
 .PHONY : renderer.o
 
@@ -284,6 +308,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... renderer"
+	@echo "... computeShader.o"
+	@echo "... computeShader.i"
+	@echo "... computeShader.s"
 	@echo "... renderer.o"
 	@echo "... renderer.i"
 	@echo "... renderer.s"

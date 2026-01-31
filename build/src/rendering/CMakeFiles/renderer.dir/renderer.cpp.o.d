@@ -153,7 +153,7 @@ src/rendering/CMakeFiles/renderer.dir/renderer.cpp.o: \
  /usr/include/c++/13/bits/istream.tcc \
  /home/jakob/dev/OpenGL-Fractals/src/rendering/shader.h \
  /home/jakob/dev/OpenGL-Fractals/dependencies/glad/include/glad/glad.h \
- /usr/include/KHR/khrplatform.h \
+ /home/jakob/dev/OpenGL-Fractals/dependencies/glad/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \

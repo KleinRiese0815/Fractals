@@ -3,7 +3,7 @@ src/rendering/CMakeFiles/renderer.dir/texture.cpp.o: \
  /usr/include/stdc-predef.h \
  /home/jakob/dev/OpenGL-Fractals/src/rendering/texture.h \
  /home/jakob/dev/OpenGL-Fractals/dependencies/glad/include/glad/glad.h \
- /usr/include/KHR/khrplatform.h \
+ /home/jakob/dev/OpenGL-Fractals/dependencies/glad/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

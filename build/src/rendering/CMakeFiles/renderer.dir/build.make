@@ -69,10 +69,24 @@ include src/rendering/CMakeFiles/renderer.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/rendering/CMakeFiles/renderer.dir/flags.make
 
+src/rendering/CMakeFiles/renderer.dir/computeShader.cpp.o: src/rendering/CMakeFiles/renderer.dir/flags.make
+src/rendering/CMakeFiles/renderer.dir/computeShader.cpp.o: /home/jakob/dev/OpenGL-Fractals/src/rendering/computeShader.cpp
+src/rendering/CMakeFiles/renderer.dir/computeShader.cpp.o: src/rendering/CMakeFiles/renderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/rendering/CMakeFiles/renderer.dir/computeShader.cpp.o"
+	cd /home/jakob/dev/OpenGL-Fractals/build/src/rendering && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/rendering/CMakeFiles/renderer.dir/computeShader.cpp.o -MF CMakeFiles/renderer.dir/computeShader.cpp.o.d -o CMakeFiles/renderer.dir/computeShader.cpp.o -c /home/jakob/dev/OpenGL-Fractals/src/rendering/computeShader.cpp
+
+src/rendering/CMakeFiles/renderer.dir/computeShader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/renderer.dir/computeShader.cpp.i"
+	cd /home/jakob/dev/OpenGL-Fractals/build/src/rendering && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/dev/OpenGL-Fractals/src/rendering/computeShader.cpp > CMakeFiles/renderer.dir/computeShader.cpp.i
+
+src/rendering/CMakeFiles/renderer.dir/computeShader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/renderer.dir/computeShader.cpp.s"
+	cd /home/jakob/dev/OpenGL-Fractals/build/src/rendering && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/dev/OpenGL-Fractals/src/rendering/computeShader.cpp -o CMakeFiles/renderer.dir/computeShader.cpp.s
+
 src/rendering/CMakeFiles/renderer.dir/renderer.cpp.o: src/rendering/CMakeFiles/renderer.dir/flags.make
 src/rendering/CMakeFiles/renderer.dir/renderer.cpp.o: /home/jakob/dev/OpenGL-Fractals/src/rendering/renderer.cpp
 src/rendering/CMakeFiles/renderer.dir/renderer.cpp.o: src/rendering/CMakeFiles/renderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/rendering/CMakeFiles/renderer.dir/renderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/rendering/CMakeFiles/renderer.dir/renderer.cpp.o"
 	cd /home/jakob/dev/OpenGL-Fractals/build/src/rendering && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/rendering/CMakeFiles/renderer.dir/renderer.cpp.o -MF CMakeFiles/renderer.dir/renderer.cpp.o.d -o CMakeFiles/renderer.dir/renderer.cpp.o -c /home/jakob/dev/OpenGL-Fractals/src/rendering/renderer.cpp
 
 src/rendering/CMakeFiles/renderer.dir/renderer.cpp.i: cmake_force
@@ -86,7 +100,7 @@ src/rendering/CMakeFiles/renderer.dir/renderer.cpp.s: cmake_force
 src/rendering/CMakeFiles/renderer.dir/shader.cpp.o: src/rendering/CMakeFiles/renderer.dir/flags.make
 src/rendering/CMakeFiles/renderer.dir/shader.cpp.o: /home/jakob/dev/OpenGL-Fractals/src/rendering/shader.cpp
 src/rendering/CMakeFiles/renderer.dir/shader.cpp.o: src/rendering/CMakeFiles/renderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/rendering/CMakeFiles/renderer.dir/shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/rendering/CMakeFiles/renderer.dir/shader.cpp.o"
 	cd /home/jakob/dev/OpenGL-Fractals/build/src/rendering && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/rendering/CMakeFiles/renderer.dir/shader.cpp.o -MF CMakeFiles/renderer.dir/shader.cpp.o.d -o CMakeFiles/renderer.dir/shader.cpp.o -c /home/jakob/dev/OpenGL-Fractals/src/rendering/shader.cpp
 
 src/rendering/CMakeFiles/renderer.dir/shader.cpp.i: cmake_force
@@ -100,7 +114,7 @@ src/rendering/CMakeFiles/renderer.dir/shader.cpp.s: cmake_force
 src/rendering/CMakeFiles/renderer.dir/texture.cpp.o: src/rendering/CMakeFiles/renderer.dir/flags.make
 src/rendering/CMakeFiles/renderer.dir/texture.cpp.o: /home/jakob/dev/OpenGL-Fractals/src/rendering/texture.cpp
 src/rendering/CMakeFiles/renderer.dir/texture.cpp.o: src/rendering/CMakeFiles/renderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/rendering/CMakeFiles/renderer.dir/texture.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/rendering/CMakeFiles/renderer.dir/texture.cpp.o"
 	cd /home/jakob/dev/OpenGL-Fractals/build/src/rendering && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/rendering/CMakeFiles/renderer.dir/texture.cpp.o -MF CMakeFiles/renderer.dir/texture.cpp.o.d -o CMakeFiles/renderer.dir/texture.cpp.o -c /home/jakob/dev/OpenGL-Fractals/src/rendering/texture.cpp
 
 src/rendering/CMakeFiles/renderer.dir/texture.cpp.i: cmake_force
@@ -114,7 +128,7 @@ src/rendering/CMakeFiles/renderer.dir/texture.cpp.s: cmake_force
 src/rendering/CMakeFiles/renderer.dir/vertex.cpp.o: src/rendering/CMakeFiles/renderer.dir/flags.make
 src/rendering/CMakeFiles/renderer.dir/vertex.cpp.o: /home/jakob/dev/OpenGL-Fractals/src/rendering/vertex.cpp
 src/rendering/CMakeFiles/renderer.dir/vertex.cpp.o: src/rendering/CMakeFiles/renderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/rendering/CMakeFiles/renderer.dir/vertex.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/rendering/CMakeFiles/renderer.dir/vertex.cpp.o"
 	cd /home/jakob/dev/OpenGL-Fractals/build/src/rendering && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/rendering/CMakeFiles/renderer.dir/vertex.cpp.o -MF CMakeFiles/renderer.dir/vertex.cpp.o.d -o CMakeFiles/renderer.dir/vertex.cpp.o -c /home/jakob/dev/OpenGL-Fractals/src/rendering/vertex.cpp
 
 src/rendering/CMakeFiles/renderer.dir/vertex.cpp.i: cmake_force
@@ -127,6 +141,7 @@ src/rendering/CMakeFiles/renderer.dir/vertex.cpp.s: cmake_force
 
 # Object files for target renderer
 renderer_OBJECTS = \
+"CMakeFiles/renderer.dir/computeShader.cpp.o" \
 "CMakeFiles/renderer.dir/renderer.cpp.o" \
 "CMakeFiles/renderer.dir/shader.cpp.o" \
 "CMakeFiles/renderer.dir/texture.cpp.o" \
@@ -135,13 +150,14 @@ renderer_OBJECTS = \
 # External object files for target renderer
 renderer_EXTERNAL_OBJECTS =
 
+src/rendering/librenderer.a: src/rendering/CMakeFiles/renderer.dir/computeShader.cpp.o
 src/rendering/librenderer.a: src/rendering/CMakeFiles/renderer.dir/renderer.cpp.o
 src/rendering/librenderer.a: src/rendering/CMakeFiles/renderer.dir/shader.cpp.o
 src/rendering/librenderer.a: src/rendering/CMakeFiles/renderer.dir/texture.cpp.o
 src/rendering/librenderer.a: src/rendering/CMakeFiles/renderer.dir/vertex.cpp.o
 src/rendering/librenderer.a: src/rendering/CMakeFiles/renderer.dir/build.make
 src/rendering/librenderer.a: src/rendering/CMakeFiles/renderer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library librenderer.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library librenderer.a"
 	cd /home/jakob/dev/OpenGL-Fractals/build/src/rendering && $(CMAKE_COMMAND) -P CMakeFiles/renderer.dir/cmake_clean_target.cmake
 	cd /home/jakob/dev/OpenGL-Fractals/build/src/rendering && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/renderer.dir/link.txt --verbose=$(VERBOSE)
 
