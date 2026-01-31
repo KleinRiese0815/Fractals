@@ -161,7 +161,6 @@ src/CMakeFiles/openglProject.dir/main.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/jakob/dev/OpenGL-Fractals/src/gui/gui.h \
  /home/jakob/dev/OpenGL-Fractals/src/rendering/shader.h \
  /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/glm.hpp \
  /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/detail/_fixes.hpp \
@@ -391,5 +390,6 @@ src/CMakeFiles/openglProject.dir/main.cpp.o: \
  /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm/gtc/matrix_transform.inl \
  /home/jakob/dev/OpenGL-Fractals/src/rendering/VboIndex.h \
  /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/fractal.h \
+ /home/jakob/dev/OpenGL-Fractals/src/gui/gui.h \
  /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/SierpinskiTriangle.h \
  /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/KochSnowflake.h

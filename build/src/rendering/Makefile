@@ -223,6 +223,30 @@ shader.cpp.s:
 	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/rendering/CMakeFiles/renderer.dir/build.make src/rendering/CMakeFiles/renderer.dir/shader.cpp.s
 .PHONY : shader.cpp.s
 
+texture.o: texture.cpp.o
+.PHONY : texture.o
+
+# target to build an object file
+texture.cpp.o:
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/rendering/CMakeFiles/renderer.dir/build.make src/rendering/CMakeFiles/renderer.dir/texture.cpp.o
+.PHONY : texture.cpp.o
+
+texture.i: texture.cpp.i
+.PHONY : texture.i
+
+# target to preprocess a source file
+texture.cpp.i:
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/rendering/CMakeFiles/renderer.dir/build.make src/rendering/CMakeFiles/renderer.dir/texture.cpp.i
+.PHONY : texture.cpp.i
+
+texture.s: texture.cpp.s
+.PHONY : texture.s
+
+# target to generate assembly for a file
+texture.cpp.s:
+	cd /home/jakob/dev/OpenGL-Fractals/build && $(MAKE) $(MAKESILENT) -f src/rendering/CMakeFiles/renderer.dir/build.make src/rendering/CMakeFiles/renderer.dir/texture.cpp.s
+.PHONY : texture.cpp.s
+
 vertex.o: vertex.cpp.o
 .PHONY : vertex.o
 
@@ -266,6 +290,9 @@ help:
 	@echo "... shader.o"
 	@echo "... shader.i"
 	@echo "... shader.s"
+	@echo "... texture.o"
+	@echo "... texture.i"
+	@echo "... texture.s"
 	@echo "... vertex.o"
 	@echo "... vertex.i"
 	@echo "... vertex.s"

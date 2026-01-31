@@ -819,6 +819,30 @@ src/rendering/CMakeFiles/renderer.dir/shader.cpp.o: /home/jakob/dev/OpenGL-Fract
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
+src/rendering/CMakeFiles/renderer.dir/texture.cpp.o: /home/jakob/dev/OpenGL-Fractals/src/rendering/texture.cpp \
+  /home/jakob/dev/OpenGL-Fractals/dependencies/glad/include/glad/glad.h \
+  /home/jakob/dev/OpenGL-Fractals/src/rendering/texture.h \
+  /usr/include/KHR/khrplatform.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
+
 src/rendering/CMakeFiles/renderer.dir/vertex.cpp.o: /home/jakob/dev/OpenGL-Fractals/src/rendering/vertex.cpp \
   /home/jakob/dev/OpenGL-Fractals/src/rendering/vertex.h \
   /usr/include/alloca.h \
@@ -1009,6 +1033,10 @@ src/rendering/CMakeFiles/renderer.dir/vertex.cpp.o: /home/jakob/dev/OpenGL-Fract
 
 
 /home/jakob/dev/OpenGL-Fractals/src/rendering/vertex.cpp:
+
+/home/jakob/dev/OpenGL-Fractals/src/rendering/texture.h:
+
+/home/jakob/dev/OpenGL-Fractals/src/rendering/texture.cpp:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h:
 

@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jakob/dev/OpenGL-Fractals/src/rendering/renderer.cpp" "src/rendering/CMakeFiles/renderer.dir/renderer.cpp.o" "gcc" "src/rendering/CMakeFiles/renderer.dir/renderer.cpp.o.d"
   "/home/jakob/dev/OpenGL-Fractals/src/rendering/shader.cpp" "src/rendering/CMakeFiles/renderer.dir/shader.cpp.o" "gcc" "src/rendering/CMakeFiles/renderer.dir/shader.cpp.o.d"
+  "/home/jakob/dev/OpenGL-Fractals/src/rendering/texture.cpp" "src/rendering/CMakeFiles/renderer.dir/texture.cpp.o" "gcc" "src/rendering/CMakeFiles/renderer.dir/texture.cpp.o.d"
   "/home/jakob/dev/OpenGL-Fractals/src/rendering/vertex.cpp" "src/rendering/CMakeFiles/renderer.dir/vertex.cpp.o" "gcc" "src/rendering/CMakeFiles/renderer.dir/vertex.cpp.o.d"
   )
 

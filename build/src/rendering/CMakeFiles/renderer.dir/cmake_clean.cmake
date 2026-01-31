@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/renderer.dir/renderer.cpp.o.d"
   "CMakeFiles/renderer.dir/shader.cpp.o"
   "CMakeFiles/renderer.dir/shader.cpp.o.d"
+  "CMakeFiles/renderer.dir/texture.cpp.o"
+  "CMakeFiles/renderer.dir/texture.cpp.o.d"
   "CMakeFiles/renderer.dir/vertex.cpp.o"
   "CMakeFiles/renderer.dir/vertex.cpp.o.d"
   "librenderer.a"

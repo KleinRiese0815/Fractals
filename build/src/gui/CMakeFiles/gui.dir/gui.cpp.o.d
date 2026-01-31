@@ -1,6 +1,7 @@
 src/gui/CMakeFiles/gui.dir/gui.cpp.o: \
  /home/jakob/dev/OpenGL-Fractals/src/gui/gui.cpp \
  /usr/include/stdc-predef.h \
+ /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/fractal.h \
  /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imgui.h \
  /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imconfig.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \

@@ -6,6 +6,7 @@ src/gui/CMakeFiles/gui.dir/gui.cpp.o: /home/jakob/dev/OpenGL-Fractals/src/gui/gu
   /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/backends/imgui_impl_opengl3.h \
   /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imconfig.h \
   /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imgui.h \
+  /home/jakob/dev/OpenGL-Fractals/src/fractalScripts/fractal.h \
   /home/jakob/dev/OpenGL-Fractals/src/gui/gui.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -348,14 +349,6 @@ src/gui/CMakeFiles/gui.dir/gui.cpp.o: /home/jakob/dev/OpenGL-Fractals/src/gui/gu
 
 /usr/include/c++/13/bits/cpp_type_traits.h:
 
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/c++/13/streambuf:
-
-/usr/include/c++/13/bits/exception.h:
-
 /home/jakob/dev/OpenGL-Fractals/src/gui/gui.cpp:
 
 /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imgui.h:
@@ -366,15 +359,9 @@ src/gui/CMakeFiles/gui.dir/gui.cpp.o: /home/jakob/dev/OpenGL-Fractals/src/gui/gu
 
 /usr/include/c++/13/bits/allocator.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/c++/13/bits/charconv.h:
-
-/usr/include/c++/13/bits/stl_pair.h:
-
-/usr/include/c++/13/cstdio:
-
 /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/backends/imgui_impl_opengl3.h:
+
+/home/jakob/dev/OpenGL-Fractals/src/fractalScripts/fractal.h:
 
 /usr/include/c++/13/bits/locale_facets.tcc:
 
@@ -428,6 +415,22 @@ src/gui/CMakeFiles/gui.dir/gui.cpp.o: /home/jakob/dev/OpenGL-Fractals/src/gui/gu
 
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/c++/13/streambuf:
+
+/usr/include/c++/13/bits/exception.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/c++/13/bits/charconv.h:
+
+/usr/include/c++/13/cstdio:
+
+/usr/include/c++/13/bits/stl_pair.h:
+
 /usr/include/c++/13/string:
 
 /usr/include/c++/13/bits/istream.tcc:
@@ -461,6 +464,12 @@ src/gui/CMakeFiles/gui.dir/gui.cpp.o: /home/jakob/dev/OpenGL-Fractals/src/gui/gu
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/c++/13/bits/new_allocator.h:
+
+/usr/include/c++/13/bits/uses_allocator_args.h:
 
 /usr/include/c++/13/bits/stl_function.h:
 
@@ -565,12 +574,6 @@ src/gui/CMakeFiles/gui.dir/gui.cpp.o: /home/jakob/dev/OpenGL-Fractals/src/gui/gu
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/c++/13/bits/new_allocator.h:
-
-/usr/include/c++/13/bits/uses_allocator_args.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/c++/13/bits/basic_string.h:
 
